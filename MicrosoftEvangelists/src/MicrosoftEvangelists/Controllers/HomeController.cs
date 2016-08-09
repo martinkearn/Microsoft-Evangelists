@@ -7,6 +7,7 @@ using System.IO;
 using MicrosoftEvangelists.Models;
 using Newtonsoft.Json;
 using MicrosoftEvangelists.ViewModels;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MicrosoftEvangelists.Controllers
 {
@@ -14,25 +15,36 @@ namespace MicrosoftEvangelists.Controllers
     {
         public IActionResult Index()
         {
+            //get data
             var data = System.IO.File.ReadAllText(@".\Data\data.json");
-
             var profiles = JsonConvert.DeserializeObject<List<Profile>>(data);
 
+            //mine data for drop-down values and sort them
             var avaliableCities = profiles.SelectMany(p => p.cities).Distinct().ToList();
             var avaliableRegions = profiles.SelectMany(p => p.regions).Distinct().ToList();
             var avaliableTags = profiles.SelectMany(p => p.tags).Distinct().ToList();
-
+            var avaliableCountries = profiles.Select(p => p.country).Distinct().ToList();
             avaliableCities.Sort();
             avaliableRegions.Sort();
             avaliableTags.Sort();
+            avaliableCountries.Sort();
 
+            //create select lists for view
+            var avaliableCitiesSelect = new SelectList(avaliableCities);
+            var avaliableRegionsSelect = new SelectList(avaliableRegions);
+            var avaliableTagsSelect = new SelectList(avaliableTags);
+            var avaliableCountriesSelect = new SelectList(avaliableCountries);
+
+            //construct view model
             var vm = new HomeIndexViewModel() {
                 Profiles = profiles,
-                AvaliableCities = avaliableCities,
-                AvaliableRegions = avaliableRegions,
-                AvaliableTags = avaliableTags
+                AvaliableCities = avaliableCitiesSelect,
+                AvaliableRegions = avaliableRegionsSelect,
+                AvaliableTags = avaliableTagsSelect,
+                AvaliableCountries = avaliableCountriesSelect
             };
 
+            //render view
             return View(vm);
         }
 

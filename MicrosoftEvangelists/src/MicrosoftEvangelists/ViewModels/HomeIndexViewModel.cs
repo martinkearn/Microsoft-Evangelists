@@ -1,4 +1,5 @@
-﻿using MicrosoftEvangelists.Models;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using MicrosoftEvangelists.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,10 +11,12 @@ namespace MicrosoftEvangelists.ViewModels
     {
         public List<Profile> Profiles { get; set; }
 
-        public List<string> AvaliableRegions { get; set; }
+        public SelectList AvaliableRegions { get; set; }
 
-        public List<string> AvaliableCities { get; set; }
+        public SelectList AvaliableCities { get; set; }
 
-        public List<string> AvaliableTags { get; set; }
+        public SelectList AvaliableTags { get; set; }
+
+        public SelectList AvaliableCountries { get; set; }
     }
 }
