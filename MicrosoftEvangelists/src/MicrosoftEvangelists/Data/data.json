@@ -1,5 +1,5 @@
-﻿{
-  "profiles": [
+﻿
+  [
     {
       "name": "Martin Kearn",
       "slogan": "Web Cognitive",
@@ -12,10 +12,44 @@
       "github": "https://github.com/martinkearn",
       "stackoverflow": "http://stackoverflow.com/users/1601158/martin-kearn",
       "email": "martin.kearn@microsoft.com",
-      "city": "Birmingham",
-      "city2": "Worcester",
-      "region": "Midlands",
-      "country": "UK"
+      "cities": [ "Birmingham", "Worcester", "London", "Warwick" ],
+      "regions": [ "Midlands" ],
+      "country": "UK",
+      "tags": ["Cognitive Services", "Web", "Azure", "Office"]
+    },
+    {
+      "name": "Amy Nicholson",
+      "slogan": "I'm a cloud technical evangelist at Microsoft",
+      "bio": "I'm a cloud technical evangelist at Microsoft. I'm into Data Science, Machine Learning and IoT. I'm based near Warwickshire UK",
+      "picture": "http://amykatenicho.azurewebsites.net/images/audience.jpg",
+      "website": "http://amykatenicho.azurewebsites.net/",
+      "twitter": "https://twitter.com/amykatenicho",
+      "linkedin": "https://uk.linkedin.com/in/amykatenicho",
+      "skype": "skype:amy.kate.nicholson",
+      "github": "https://github.com/amykatenicho",
+      "stackoverflow": "http://stackoverflow.com/users/5571510/amykatenicho",
+      "email": "amynic@microsoft.com",
+      "cities": [ "Rugby", "Warwick", "Coventry" ],
+      "regions": [ "Midlands" ],
+      "country": "UK",
+      "tags": [ "Cognitive Services", "Data", "Azure", "Machine Learning" ]
+    },
+    {
+      "name": "Bianca Furtuna",
+      "slogan": "Machine Learning and Azure Data Platform rock star",
+      "bio": "Bianca Furtuna is a Technical Evangelist at Microsoft UK Ltd, currently focusing on Machine Learning and Azure Data Platform. She finished a degree in Electrical and Electronic Engineering and her main interests during her studies were in the fields of Artificial Intelligence and Machine Learning, Control Systems and Signal Processing.  As a Technical Evangelist, Bianca is engaging with technical audiences across the UK delivering presentations, workshops and technical advice. She is also working with various organisations to help them improve or architect their cloud solutions and support them in implementing Machine Learning and analytics services.",
+      "picture": "http://i.s-microsoft.com/en-gb/developers/images/articles/authors/Bianca-Furtuna.jpg",
+      "website": "http://furbi.azurewebsites.net/",
+      "twitter": "https://twitter.com/Fur_Bi",
+      "linkedin": "",
+      "skype": "",
+      "github": "",
+      "stackoverflow": "",
+      "email": "bifurt@microsoft.com",
+      "cities": [ "London", "Reading" ],
+      "regions": [ "London", "South East" ],
+      "country": "UK",
+      "tags": [ "Data", "Azure", "Machine Learning", "IOT" ]
     }
   ]
-}
+
