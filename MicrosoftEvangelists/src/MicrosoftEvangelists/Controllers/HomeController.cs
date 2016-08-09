@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using System.IO;
 
 namespace MicrosoftEvangelists.Controllers
 {
@@ -10,7 +11,11 @@ namespace MicrosoftEvangelists.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            var data = System.IO.File.ReadAllLines(@"..\Data\data.json");
+
+
+
+                return View();
         }
 
         public IActionResult About()
