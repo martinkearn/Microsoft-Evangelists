@@ -33,12 +33,14 @@ namespace MicrosoftEvangelists.Controllers
             //get profiles
             var allProfiles = JsonConvert.DeserializeObject<List<Profile>>(data);
 
-            //get filtered profiles
+            //get filtered profiles and randomise order
+            var rnd = new Random();
             var filteredProfiles = allProfiles
                 .Where(p => p.country == SelectedCountry || SelectedCountry == "ALL")
                 .Where(p => p.regions.Contains(SelectedRegion) || SelectedRegion == "ALL")
                 .Where(p => p.cities.Contains(SelectedCity) || SelectedCity == "ALL")
                 .Where(p => p.tags.Contains(SelectedTag) || SelectedTag == "ALL")
+                .OrderBy(p => rnd.Next())
                 .ToList();
 
             //mine data for drop-down values and sort them

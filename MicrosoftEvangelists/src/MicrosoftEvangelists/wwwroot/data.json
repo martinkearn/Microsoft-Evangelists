@@ -21,9 +21,9 @@
   {
     "id": "6b3e0740-8263-4615-9369-d046758d1783",
     "name": "Amy Nicholson",
-    "slogan": "I'm a cloud technical evangelist at Microsoft",
-    "bio": "I'm a cloud technical evangelist at Microsoft. I'm into Data Science, Machine Learning and IoT. I'm based near Warwickshire UK",
-    "picture": "https://pbs.twimg.com/profile_images/3339300161/2113f29936bef25cafb968fb25ef632b.png",
+    "slogan": "I'm into Data Science, Machine Learning and the cloud",
+    "bio": "Amy Nicholson is a Technical Evangelist at Microsoft UK having obtained a degree in Computer Science. She is passionate about Data Science, Machine Learning and IoT. Amy helps customers to envision, design and build their cloud solutions. You will find her sharing content online and at in person events",
+    "picture": "http://amykatenicho.azurewebsites.net/images/Profile1.jpg",
     "website": "http://amykatenicho.azurewebsites.net/",
     "blog": "",
     "twitter": "https://twitter.com/amykatenicho",
@@ -32,7 +32,7 @@
     "github": "https://github.com/amykatenicho",
     "stackoverflow": "http://stackoverflow.com/users/5571510/amykatenicho",
     "email": "amynic@microsoft.com",
-    "cities": [ "Rugby", "Reading", "London" ],
+    "cities": [ "Rugby", "Reading", "London", "Coventry", "Birmingham", "Leicester", "Derby" ],
     "regions": [ "Midlands" ],
     "country": "UK",
     "tags": [ "Data Science", "Machine Learning", "Azure", "IoT" ]
@@ -117,7 +117,7 @@
     "id": "1089c2ea-786b-4451-95e2-ad037160e471",
     "name": "Joni Collinge",
     "slogan": "I’m Martin Kearns guiding star",
-    "bio": ": “Joni is a Technical Evangelist at Microsoft. He currently works with a range of customers to build next generation cloud systems which go beyond the capabilities of traditional infrastructure. His background is as a Software Engineer, working on both the Microsoft and OSS stacks. This has driven his passion for bridging the gap between the two traditionally distinct worlds and encouraging openness within Microsoft.",
+    "bio": "Joni is a Technical Evangelist at Microsoft. He currently works with a range of customers to build next generation cloud systems which go beyond the capabilities of traditional infrastructure. His background is as a Software Engineer, working on both the Microsoft and OSS stacks. This has driven his passion for bridging the gap between the two traditionally distinct worlds and encouraging openness within Microsoft.",
     "picture": "http://oi66.tinypic.com/34xqgdf.jpg",
     "website": "http://dotjson.uk",
     "blog": "http://dotjson.uk",
@@ -135,7 +135,7 @@
   {
     "id": "7a3fbb33-73fc-4444-9dff-5a2999f9ebec",
     "name": "Andrew Fryer",
-    "slogan": "Talk to me about data ",
+    "slogan": "Talk to me about data",
     "bio": " Andrew has been working in Business Intelligence and analytics for over twenty years. Most of this has been on the Microsoft platform especially the SQL Server ecosystem.  However for the last couple of years his focus has been big data and analytics on the Azure platform, including Machine Learning, and the various tools for managing and analysing big data.  He regularly present to community groups on the latest Microsoft cognitive technologies. He also hosts TechDays Online which regularly gets over ten thousand viewers watching the live stream",
     "picture": "https://pbs.twimg.com/profile_images/629558674047037440/3AfMDrJE.jpg",
     "website": "http://andrew.fryer.com",
@@ -150,6 +150,26 @@
     "regions": [ "South East" ],
     "country": "UK",
     "tags": [ "Data Science", "Machine Learning", "Azure", "Business Intelligence", "SQL Server", "R" ]
+  },
+  {
+    "id": "bb130a41-d9c7-4434-9d1c-36c3f6bc0ae2",
+    "name": "Will Eastbury",
+    "slogan": "Hardcore Azure Architect",
+    "bio": "Will is a technical evangelist for Microsoft based in the UK, focusing in the ISV space. Will helps people to build and develop applications on the Azure platform. This can include. Will has been working with Microsoft development technologies since the mid 90's (Since Visual Basic 3.0) and has been working for Microsoft helping developers build and migrate cloud applications since 2014.",
+    "picture": "http://www.shawnee.edu/_resources/images/profile-placeholder.png",
+    "website": "http://www.threeshades.co.uk",
+    "blog": "",
+    "twitter": "http://twitter.com/willeastbury",
+    "linkedin": "https://uk.linkedin.com/in/willeastbury",
+    "skype": "skype:willeastbury",
+    "github": "https://github.com/wieastbu",
+    "stackoverflow": "http://stackoverflow.com/users/4354546/will-eastbury",
+    "email": "william.eastbury@microsoft.com",
+    "cities": [ "Birmingham", "Worcester", "Cheltenham", "Gloucester" ],
+    "regions": [ "Midlands", "Cotswolds" ],
+    "country": "UK",
+    "tags": [ "Azure IaaS", "Web", "Azure PaaS", "Azure" ]
   }
+
 ]
 
