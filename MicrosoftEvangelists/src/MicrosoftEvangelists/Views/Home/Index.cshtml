@@ -5,29 +5,41 @@
 }
 
 <div class="row">
-    <div class="col-md-3">
-        <select asp-items="@Model.AvaliableCountries" class="form-control"></select>
-    </div>
-    <div class="col-md-3">
-        <select asp-items="@Model.AvaliableRegions" class="form-control"></select>
-    </div>
-    <div class="col-md-3">
-        <select asp-items="@Model.AvaliableCities" class="form-control"></select>
-    </div>
-    <div class="col-md-3">
-        <select asp-items="@Model.AvaliableTags" class="form-control"></select>
-    </div>
+    <form asp-controller="home" asp-action="Index" method="post">
+        <div class="col-md-4">
+            <label>Region</label>
+            <select asp-items="@Model.AvaliableRegions" asp-for="SelectedRegion" class="form-control" onchange="this.form.submit()">
+                <option>ALL</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label>City</label>
+            <select asp-items="@Model.AvaliableCities" asp-for="SelectedCity" class="form-control" onchange="this.form.submit()">
+                <option>ALL</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label>Technology</label>
+            <select asp-items="@Model.AvaliableTags" asp-for="SelectedTag" class="form-control" onchange="this.form.submit()">
+                <option>ALL</option>
+            </select>
+        </div>
+    </form>
 </div>
 
 <div class="row">
-    @foreach (var profile in Model.Profiles)
+    @if (Model.Profiles.Count == 0)
     {
-        <div class="col-md-3">
-            <span>@profile.name</span>
-            <br />
-            <span>@profile.twitter</span>
-            <br />
-        </div>
+        <p>Sorry, we don't have any evangelists that match that criteria. Try a less restrictive search or <a href="mailto:ukdxte@microsoft.com?Subject=Evangelist%20Needed">Email Us</a> and someone will be in touch.</p>
+    }
+    else
+    {
+        @foreach (var profile in Model.Profiles)
+        {
+            <div class="col-md-3 well">
+                <img src="@profile.picture" alt="Picture of @profile.name" style="height:200px; width: 200px;" class="img-circle" />
+            </div>
+        }
     }
 </div>
 

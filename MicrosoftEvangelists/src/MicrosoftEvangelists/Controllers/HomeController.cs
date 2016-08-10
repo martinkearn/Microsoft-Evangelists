@@ -13,17 +13,25 @@ namespace MicrosoftEvangelists.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(string SelectedCountry = "ALL", string SelectedRegion = "ALL", string SelectedCity = "ALL", string SelectedTag = "ALL")
         {
             //get data
             var data = System.IO.File.ReadAllText(@".\Data\data.json");
-            var profiles = JsonConvert.DeserializeObject<List<Profile>>(data);
+            var allProfiles = JsonConvert.DeserializeObject<List<Profile>>(data);
+
+            //get filtered profiles
+            var filteredProfiles = allProfiles
+                .Where(p => p.country == SelectedCountry || SelectedCountry == "ALL")
+                .Where(p => p.regions.Contains(SelectedRegion) || SelectedRegion == "ALL")
+                .Where(p => p.cities.Contains(SelectedCity) || SelectedCity == "ALL")
+                .Where(p => p.tags.Contains(SelectedTag) || SelectedTag == "ALL")
+                .ToList();
 
             //mine data for drop-down values and sort them
-            var avaliableCities = profiles.SelectMany(p => p.cities).Distinct().ToList();
-            var avaliableRegions = profiles.SelectMany(p => p.regions).Distinct().ToList();
-            var avaliableTags = profiles.SelectMany(p => p.tags).Distinct().ToList();
-            var avaliableCountries = profiles.Select(p => p.country).Distinct().ToList();
+            var avaliableCities = allProfiles.SelectMany(p => p.cities).Distinct().ToList();
+            var avaliableRegions = allProfiles.SelectMany(p => p.regions).Distinct().ToList();
+            var avaliableTags = allProfiles.SelectMany(p => p.tags).Distinct().ToList();
+            var avaliableCountries = allProfiles.Select(p => p.country).Distinct().ToList();
             avaliableCities.Sort();
             avaliableRegions.Sort();
             avaliableTags.Sort();
@@ -37,11 +45,15 @@ namespace MicrosoftEvangelists.Controllers
 
             //construct view model
             var vm = new HomeIndexViewModel() {
-                Profiles = profiles,
+                Profiles = filteredProfiles,
                 AvaliableCities = avaliableCitiesSelect,
                 AvaliableRegions = avaliableRegionsSelect,
                 AvaliableTags = avaliableTagsSelect,
-                AvaliableCountries = avaliableCountriesSelect
+                AvaliableCountries = avaliableCountriesSelect,
+                SelectedCountry = SelectedCountry,
+                SelectedRegion = SelectedRegion,
+                SelectedCity = SelectedCity,
+                SelectedTag = SelectedTag
             };
 
             //render view

@@ -12,6 +12,7 @@ namespace MicrosoftEvangelists.Models
         public string bio { get; set; }
         public string picture { get; set; }
         public string website { get; set; }
+        public string blog { get; set; }
         public string twitter { get; set; }
         public string linkedin { get; set; }
         public string skype { get; set; }
