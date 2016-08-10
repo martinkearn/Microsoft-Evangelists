@@ -8,15 +8,29 @@ using MicrosoftEvangelists.Models;
 using Newtonsoft.Json;
 using MicrosoftEvangelists.ViewModels;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Net.Http;
 
 namespace MicrosoftEvangelists.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index(string SelectedCountry = "ALL", string SelectedRegion = "ALL", string SelectedCity = "ALL", string SelectedTag = "ALL")
+        public async Task<IActionResult> Index(string SelectedCountry = "ALL", string SelectedRegion = "ALL", string SelectedCity = "ALL", string SelectedTag = "ALL")
         {
-            //get data
-            var data = System.IO.File.ReadAllText(@".\Data\data.json");
+            //get data from live file or session
+            if (string.IsNullOrEmpty(ReadSessionData("data")))
+            {
+                using (var httpClient = new HttpClient())
+                {
+                    var dataUrl = "http://microsoftevangelists.azurewebsites.net/data.json";
+                    httpClient.BaseAddress = new Uri(dataUrl);
+                    var responseMessage = await httpClient.GetAsync(dataUrl);
+                    var responseMessageString = await responseMessage.Content.ReadAsStringAsync();
+                    SetSessionData("data", responseMessageString);
+                }
+            }
+            var data = ReadSessionData("data");
+
+            //get profiles
             var allProfiles = JsonConvert.DeserializeObject<List<Profile>>(data);
 
             //get filtered profiles
@@ -60,23 +74,29 @@ namespace MicrosoftEvangelists.Controllers
             return View(vm);
         }
 
-        public IActionResult About()
+        private string ReadSessionData(string key)
         {
-            ViewData["Message"] = "Your application description page.";
+            byte[] bytes;
+            HttpContext.Session.TryGetValue(key, out bytes);
+            if (bytes == null)
+            {
+                return string.Empty;
+            }
+            else
+            {
+                char[] chars = new char[bytes.Length / sizeof(char)];
+                Buffer.BlockCopy(bytes, 0, chars, 0, bytes.Length);
+                return new string(chars);
+            }
 
-            return View();
         }
 
-        public IActionResult Contact()
+        private void SetSessionData(string key, string value)
         {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
+            byte[] valueAsBytes = new byte[value.Length * sizeof(char)];
+            System.Buffer.BlockCopy(value.ToCharArray(), 0, valueAsBytes, 0, valueAsBytes.Length);
+            HttpContext.Session.Set(key, valueAsBytes);
         }
 
-        public IActionResult Error()
-        {
-            return View();
-        }
     }
 }

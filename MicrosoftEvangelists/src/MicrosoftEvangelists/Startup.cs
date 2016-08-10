@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.StaticFiles;
 
 namespace MicrosoftEvangelists
 {
@@ -27,6 +28,8 @@ namespace MicrosoftEvangelists
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSession();
+
             // Add framework services.
             services.AddMvc();
         }
@@ -49,6 +52,9 @@ namespace MicrosoftEvangelists
 
             app.UseStaticFiles();
 
+            // IMPORTANT: This session call MUST go before UseMvc()
+            app.UseSession();
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
@@ -56,5 +62,6 @@ namespace MicrosoftEvangelists
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
+
     }
 }
