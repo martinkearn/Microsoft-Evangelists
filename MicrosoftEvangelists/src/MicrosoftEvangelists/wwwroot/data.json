@@ -13,8 +13,8 @@
     "github": "https://github.com/martinkearn",
     "stackoverflow": "http://stackoverflow.com/users/1601158/martin-kearn",
     "email": "martin.kearn@microsoft.com",
-    "cities": [ "Birmingham", "Worcester", "London", "Warwick" ],
-    "regions": [ "Midlands" ],
+    "cities": [ "Birmingham", "Worcester", "London", "Warwick", "Coventry" ],
+    "regions": [ "Midlands", "Costwalds" ],
     "country": "UK",
     "tags": [ "Cognitive Services", "Web", "Azure", "Office", "Windows 10", "More Personal Computing" ]
   },
@@ -61,7 +61,7 @@
     "name": "Lilian Kasem",
     "slogan": "Bots Bots Bots! Artificial Intelligence and Mobile Development.",
     "bio": "Lilian is a Technical Evangelist within the Developer Experience Group (DX) at Microsoft. She’s is a Computer Science graduate, tech enthusiast and IoT hobbyist. Lilian has previous worked as a Software Engineer developing Android, Mobile and Web applications. Her areas of interest include Cognitive Services, Bots, Xamarin and Android & Java development using cloud services.",
-    "picture": "http://i2.wp.com/lilstech.com/wp-content/uploads/2016/05/Lilian.jpg",
+    "picture": "https://pbs.twimg.com/profile_images/655530807881289728/lW8z1bWi.jpg",
     "website": "http://liliankasem.com",
     "blog": "http://lilstech.com/",
     "twitter": "http://twitter.com/liliankasem",
@@ -169,7 +169,25 @@
     "regions": [ "Midlands", "Cotswolds" ],
     "country": "UK",
     "tags": [ "Azure IaaS", "Web", "Azure PaaS", "Azure" ]
+  },
+  {
+    "id": "48e5c21e-b579-46bb-bf34-2dde6c81baa7",
+    "name": "Simon Michael",
+    "slogan": "I'm into cognitive, bots and the cloud",
+    "bio": "Simon is a Senior Technical Evangelist within the Developer Experiences (DX) team at Microsoft UK. He has worked with UK developers and companies to help them understand and get the best from the Microsoft Platform. His current focus is the bot framework, cognitive services and conversations-as-a-service. Simon holds a BSc (hons) and PhD in Computer Science.",
+    "picture": "https://pbs.twimg.com/profile_images/545948609322024962/a8f5wg5p.jpeg",
+    "website": "http://smich.uk",
+    "blog": "https://blogs.msdn.microsoft.com/smich",
+    "twitter": "https://twitter.com/simon_mich",
+    "linkedin": "https://uk.linkedin.com/in/simon-michael-40548b2",
+    "skype": "skype:simon.michael@live.co.uk",
+    "github": "https://github.com/smich73",
+    "stackoverflow": "http://stackoverflow.com/users/6681840/simonm",
+    "email": "smich@microsoft.com",
+    "cities": [ "Bristol", "Bath", "London", "Swindon", "Cardiff" ],
+    "regions": [ "South West", "South Wales" ],
+    "country": "UK",
+    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "Conversation-as-a-Service" ]
   }
-
 ]
 

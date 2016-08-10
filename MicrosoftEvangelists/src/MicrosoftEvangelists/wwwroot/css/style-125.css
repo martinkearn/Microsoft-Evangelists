@@ -513,7 +513,7 @@ hr {
 /* General CSS */
 /* UI - X */
 .ui-125{
-	margin:120px 0px;
+	margin:0px;
 }
 /* Column Mobile */
 @media(max-width: 500px){
