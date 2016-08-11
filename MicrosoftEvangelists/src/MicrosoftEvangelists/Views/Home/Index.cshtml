@@ -1,16 +1,27 @@
 ﻿@model MicrosoftEvangelists.ViewModels.HomeIndexViewModel
 
 @{
-    ViewData["Title"] = "Microsoft Evangelists";
+    ViewData["Title"] = "Find a local Microsoft evangelist";
 }
 
+
+<div class="jumbotron">
+    <div  class="container">
+        <div id="header-text-1">
+            <h1>Microsoft Evangelists</h1>
+        </div>
+        <div id="header-text-2">
+            <h2>There is an evangelist near you. Find them, talk to them, use them</h2>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h3>Find a local Microsoft evangelist</h3>
+            <h3>@ViewData["Title"]</h3>
             <p>We have a team of evangelists that would nothing more than to come to your event, community meet-up, conference or organisation to talk about how Microsoft technology could be used in your scenario.</p>
-            <p>Our evangelists are spread throughout the country and have a diverse set of skills and expertise. Find your local evangelist below, if you cannot find someone who is local to you, feel free to reach out to anyone who has the expertise you are looking for, we are perfectly happy to travel. If all else fails <a href="mailto:ukdxte@microsoft.com?Subject=Evangelist%20Needed">email us</a>.</p>
+            <p>Our evangelists are spread throughout the country and have a diverse set of skills and expertise. Find your local evangelist below, if you cannot find someone who is local to you, feel free to reach out to anyone who has the expertise you are looking for, we are perfectly happy to travel. If all else fails <a href="mailto:ukdxteevang@microsoft.com?Subject=Evangelist%20Needed%20Please">email us</a>.</p>
         </div>
         <div class="col-md-12">
             <hr />
@@ -54,13 +65,13 @@
             {
                 @foreach (var profile in Model.Profiles)
                 {
-                    <div class="col-md-3 col-sm-6 col-xs-6 col-mob">
-                        <a class="white" data-toggle="modal" data-target="#@profile.id">
-                            <div class="ui-item">
-                                <img src="@profile.picture" alt="Picture of @profile.name" class="img-responsive" style="max-width:262px; max-height:262px" />
-                                <div class="ui-button clearfix">
-                                    <span><strong>@profile.name</strong></span>
-                                    <span class="pull-right"><i class="fa fa-2x fa-angle-double-right white" aria-hidden="true"></i></span>
+                    <div class="col-md-3 col-sm-6 col-xs-12 col-mob">
+                        <a data-toggle="modal" data-target="#@profile.id">
+                            <div class="profile-box">
+                                <img src="@profile.picture" alt="Picture of @profile.name" class="img-responsive" />
+                                <div class="profile-box-header">
+                                    <span>@profile.name<br /><small>@profile.slogan</small></span>
+                                    <span class="pull-right"><i class="fa fa-lg fa-angle-double-right white" aria-hidden="true"></i></span>
                                 </div>
                             </div>
                         </a>
@@ -72,28 +83,56 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="@string.Join(profile.id,"Label")">@profile.name <small>@profile.slogan</small></h4>
+                                    <h2 class="modal-title" id="@string.Join(profile.id,"Label")">@profile.name <small>@profile.slogan</small></h2>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="@profile.picture" alt="Picture of @profile.name" class="img-responsive img-circle" style="max-width:100px;" />
+                                    <img src="@profile.picture" alt="Picture of @profile.name" class="img-responsive img-circle" style="max-width:150px; float:left; margin-right:10px; margin-bottom: 10px;" />
                                     @profile.bio
+                                    <br />
                                     <hr />
                                     I'm into @string.Join(", ", profile.tags)
                                     <hr />
-                                    I'm based in @profile.regions.FirstOrDefault(), @profile.country and cover                                                                        @string.Join(", ", profile.cities)
-                                    <hr />
-                                    Contact me on
-                                    <a href="@profile.twitter"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="@profile.linkedin"><i class="fa fa-2x fa-linkedin" aria-hidden="true"></i></a>
-                                    <a href="@profile.skype"><i class="fa fa-2x fa-skype" aria-hidden="true"></i></a>
-                                    <a href="@profile.github"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
-                                    <a href="@profile.stackoverflow"><i class="fa fa-2x fa-stackoverflow" aria-hidden="true"></i></a>
-                                    <a href="@profile.email"><i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i></a>
-                                    <a href="@profile.blog"><i class="fa fa-2x fa-rss" aria-hidden="true"></i></a>
-                                    or <a href="@profile.website">my personal website</a>
+                                    I'm based in @profile.regions.FirstOrDefault(), @profile.country and cover                                                    @string.Join(", ", profile.cities)
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <div class="pull-left">
+                                        @if (!string.IsNullOrEmpty(profile.twitter))
+                                        {
+                                            <a href="@profile.twitter"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a>
+                                        }
+                                        @if (!string.IsNullOrEmpty(profile.linkedin))
+                                        {
+                                            <a href="@profile.linkedin"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a>
+                                        }
+                                        @if (!string.IsNullOrEmpty(profile.skype))
+                                        {
+                                            <a href="@profile.skype"><i class="fa fa-lg fa-skype" aria-hidden="true"></i></a>
+                                        }
+                                        @if (!string.IsNullOrEmpty(profile.github))
+                                        {
+                                            <a href="@profile.github"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a>
+                                        }
+                                        @if (!string.IsNullOrEmpty(profile.stackoverflow))
+                                        {
+                                            <a href="@profile.stackoverflow"><i class="fa fa-lg fa-stackoverflow" aria-hidden="true"></i></a>
+                                        }
+                                        @if (!string.IsNullOrEmpty(profile.email))
+                                        {
+                                            <a href="@profile.email"><i class="fa fa-lg fa-envelope-o" aria-hidden="true"></i></a>
+                                        }
+                                        @if (!string.IsNullOrEmpty(profile.blog))
+                                        {
+                                            <a href="@profile.blog"><i class="fa fa-lg fa-rss" aria-hidden="true"></i></a>
+                                        }
+                                        @if (!string.IsNullOrEmpty(profile.youtube))
+                                        {
+                                            <a href="@profile.youtube"><i class="fa fa-lg fa-youtube" aria-hidden="true"></i></a>
+                                        }
+                                        @if (!string.IsNullOrEmpty(profile.vimeo))
+                                        {
+                                            <a href="@profile.vimeo"><i class="fa fa-lg fa-vimeo" aria-hidden="true"></i></a>
+                                        }
+                                    </div>
                                     <a class="btn btn-primary" href="@profile.website" role="button"><i class="fa fa-angle-double-right" aria-hidden="true"></i> See more on my site</a>
                                 </div>
                             </div>

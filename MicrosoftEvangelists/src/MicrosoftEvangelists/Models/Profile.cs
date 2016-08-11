@@ -20,6 +20,8 @@ namespace MicrosoftEvangelists.Models
         public string github { get; set; }
         public string stackoverflow { get; set; }
         public string email { get; set; }
+        public string youtube { get; set; }
+        public string vimeo { get; set; }
         public List<string> cities { get; set; }
         public List<string> regions { get; set; }
         public string country { get; set; }

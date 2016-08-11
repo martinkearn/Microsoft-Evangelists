@@ -3,32 +3,39 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - MicrosoftEvangelists</title>
+    <title>@ViewData["Title"] - Microsoft Evangelists</title>
 
 
     <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link href="~/css/style-125.css" rel="stylesheet" />
         <link rel="stylesheet" href="~/css/site.css" />
     </environment>
     <environment names="Staging,Production">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css"
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
-        <link href="~/css/style-125.css" rel="stylesheet"  asp-append-version="true" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
 </head>
 <body>
 
-    <div class="container body-content">
         @RenderBody()
-        @*<hr />
-        <footer>
-            <p>&copy; 2016 - Microsoft Evangelists</p>
-        </footer>*@
-    </div>
+
+        <div class="container">
+            <hr />
+            <footer>
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <p>&copy; 2016 - Microsoft Evangelists</p>
+                    </div>
+                    <div class="col-md-8 col-xs-12">
+                        <p class="pull-right">Comments about this site or work as a Microsoft Evangelist and want to be listed? <a href="mailto:ukdxteevang@microsoft.com?Subject=I%20want%20to%20be%20on%20the%20Microsoft%20Evangelists%20site">email us</a></p>
+                    </div>
+                </div>
+
+            </footer>
+        </div>
 
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
