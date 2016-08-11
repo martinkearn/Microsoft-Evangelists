@@ -50,9 +50,9 @@
     "website": "http://furbi.azurewebsites.net/",
     "blog": "http://furbi.azurewebsites.net/",
     "twitter": "https://twitter.com/Fur_Bi",
-    "linkedin": "",
+    "linkedin": "https://uk.linkedin.com/in/biancafurtuna",
     "skype": "",
-    "github": "",
+    "github": "https://github.com/biancafbmd",
     "stackoverflow": "",
     "email": "bifurt@microsoft.com",
     "youtube": "",
@@ -65,8 +65,8 @@
   {
     "id": "cfd62c6f-68c6-4b71-94f4-9711d7ab4da0",
     "name": "Lilian Kasem",
-    "slogan": "Bots Bots Bots! Artificial Intelligence and Mobile Development.",
-    "bio": "Lilian is a Technical Evangelist within the Developer Experience Group (DX) at Microsoft. She’s is a Computer Science graduate, tech enthusiast and IoT hobbyist. Lilian has previous worked as a Software Engineer developing Android, Mobile and Web applications. Her areas of interest include Cognitive Services, Bots, Xamarin and Android & Java development using cloud services.",
+    "slogan": "Bots Bots Bots! Cognitive APIs and Mobile Development.",
+    "bio": "Lilian is a Technical Evangelist within the Developer Experience Group (DX) at Microsoft. She is a Computer Science graduate, tech enthusiast and IoT hobbyist. Lilian has previous worked as a Software Engineer developing Mobile and Web applications. Her areas of interest include Cognitive Services, Bots, Xamarin and Mobile Development",
     "picture": "https://pbs.twimg.com/profile_images/655530807881289728/lW8z1bWi.jpg",
     "website": "http://liliankasem.com",
     "blog": "http://lilstech.com/",
@@ -78,10 +78,10 @@
     "email": "lilian.kasem@microsoft.com",
     "youtube": "",
     "vimeo": "",
-    "cities": [ "London" ],
+    "cities": [ "London", "Reading" ],
     "regions": [ "South East" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Bots", "Xamarin", "Azure", "UWP" ]
+    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "UWP", "Mobile", "Conversation-as-a-Service" ]
   },
   {
     "id": "ee9469e7-389a-42bd-9be9-a224a22a0c58",
