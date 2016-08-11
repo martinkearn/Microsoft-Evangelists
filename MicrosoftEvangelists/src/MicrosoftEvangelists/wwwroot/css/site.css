@@ -12,6 +12,14 @@
     padding-right: 15px;
 }*/
 
+a {
+    color: rgb(50, 20, 90);
+}
+
+a:hover {
+    color: rgb(92, 45, 145);
+}
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: inherit;
     font-weight: 300;
@@ -26,6 +34,24 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgb(50, 20, 90);
+    border-color: rgb(50, 20, 90);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(92, 45, 145);
+    border-color: rgb(92, 45, 145);
+}
+
+
 
 #header-text-1 {
     color: white;
@@ -91,4 +117,14 @@ label {
     background: rgba(0,0,0,0.4);
     color: #fff;
 }
+
+.profile-box-header:hover {
+    background: rgba(50, 20, 90,0.9);
+}
+
+.modal-body img {
+    max-width:150px; float:left; margin-right:10px; margin-bottom: 10px;
+}
+
+
 
