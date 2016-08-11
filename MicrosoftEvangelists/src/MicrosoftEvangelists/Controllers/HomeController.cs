@@ -76,6 +76,12 @@ namespace MicrosoftEvangelists.Controllers
             return View(vm);
         }
 
+        public IActionResult Refresh()
+        {
+            SetSessionData("data", string.Empty);
+            return RedirectToAction("Index");
+        }
+
         private string ReadSessionData(string key)
         {
             byte[] bytes;

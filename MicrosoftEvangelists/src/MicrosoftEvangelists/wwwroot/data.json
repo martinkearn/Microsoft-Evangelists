@@ -16,7 +16,7 @@
     "youtube": "",
     "vimeo": "",
     "cities": [ "Birmingham", "Worcester", "Coventry", "Cheltenham", "Gloucester", "Oxford" ],
-    "regions": [ "Midlands", "Cotswolds" ],
+    "regions": [ "Midlands", "South West" ],
     "country": "UK",
     "tags": [ "Cognitive Services", "Web", "Azure", "Office", "Windows 10", "More Personal Computing" ]
   },
@@ -184,7 +184,7 @@
     "youtube": "",
     "vimeo": "",
     "cities": [ "Birmingham", "Worcester", "Cheltenham", "Gloucester" ],
-    "regions": [ "Midlands", "Cotswolds" ],
+    "regions": [ "Midlands" ],
     "country": "UK",
     "tags": [ "Azure IaaS", "Web", "Azure PaaS", "Azure" ]
   },
@@ -250,6 +250,28 @@
     "regions": [ "South West" ],
     "country": "UK",
     "tags": [ "Creative", "More Personal Computing" ]
+  },
+  {
+    "id": "879a1bef-ab5b-46b0-b35d-e9ed6b872131",
+    "name": "Marcus Robinson",
+    "slogan": "I do DevOps with lots of Ops and a little Dev",
+    "bio": "Marcus Robinson is a Technical Evangelist who focuses on writing and talking about DevOps practices to technical audiences throughout the UK. For the 12 years prior to joining Microsoft Marcus was the managing of an managed IT services company based in Leeds. In recent years Marcus has assisted many organisations with the migration of services from traditional on premises environments to the public cloud. He has become an a recognised expert in technologies such as Windows Server and Microsoft Azure.",
+    "picture": "http://www.techdiction.com/wp-content/uploads/2016/04/me-square.jpg",
+    "website": "http://www.techdiction.com/my-sessions/",
+    "blog": "http://www.techdiction.com",
+    "twitter": "http://twitter.com/techdiction",
+    "linkedin": "https://www.linkedin.com/in/marcuserobinson",
+    "skype": "skype:marcus.robinson",
+    "github": "https://github.com/marrobi",
+    "stackoverflow": "",
+    "email": "marcus.robinson@microsoft.com",
+    "youtube": "",
+    "vimeo": "",
+    "cities": [ "Leeds", "Manchester", "York", "Sheffield", "London" ],
+    "regions": [ "North East", "North West" ],
+    "country": "UK",
+    "tags": [ "Azure", "DevOps", "Containers", "Windows Server" ]
   }
+
 ]
 
