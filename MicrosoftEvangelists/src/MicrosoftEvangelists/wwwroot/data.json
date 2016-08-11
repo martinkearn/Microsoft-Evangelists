@@ -268,7 +268,7 @@
     "youtube": "",
     "vimeo": "",
     "cities": [ "Leeds", "Manchester", "York", "Sheffield", "London" ],
-    "regions": [ "Yorkshire & Humber", "North West" ],
+    "regions": [ "East Riding of Yorkshire", "North West" ],
     "country": "UK",
     "tags": [ "Azure", "DevOps", "Containers", "Windows Server" ]
   }
