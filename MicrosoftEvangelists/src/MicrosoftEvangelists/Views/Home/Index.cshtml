@@ -58,7 +58,8 @@
                             <div class="profile-box">
                                 <img src="@profile.picture" alt="Picture of @profile.name" class="img-responsive" />
                                 <div class="profile-box-header">
-                                    <span >@profile.name</span><span ><br /><small>@profile.slogan</small></span>
+                                    <span>@profile.name</span>
+                                    <span><br /><small>@profile.slogan</small></span>
                                     <span class="pull-right"><i class="fa fa-lg fa-angle-double-right" aria-hidden="true"></i></span>
                                 </div>
                             </div>
@@ -71,7 +72,7 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h2 class="modal-title" id="@string.Join(profile.id,"Label")">@profile.name <small>@profile.slogan</small></h2>
+                                    <h2 class="modal-title darkpurple" id="@string.Join(profile.id,"Label")">@profile.name<br /><small class="lightpurple">@profile.slogan</small></h2>
                                 </div>
                                 <div class="modal-body">
                                     <img src="@profile.picture" alt="Picture of @profile.name" class="img-responsive" />
