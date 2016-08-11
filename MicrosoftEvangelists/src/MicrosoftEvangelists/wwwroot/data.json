@@ -16,7 +16,7 @@
     "youtube": "",
     "vimeo": "",
     "cities": [ "Birmingham", "Worcester", "Coventry", "Cheltenham", "Gloucester", "Oxford" ],
-    "regions": [ "Midlands", "South West" ],
+    "regions": [ "West Midlands", "East Midlands", "South West" ],
     "country": "UK",
     "tags": [ "Cognitive Services", "Web", "Azure", "Office", "Windows 10", "More Personal Computing" ]
   },
@@ -37,7 +37,7 @@
     "youtube": "",
     "vimeo": "",
     "cities": [ "Rugby", "Reading", "London", "Coventry", "Birmingham", "Leicester", "Derby" ],
-    "regions": [ "Midlands" ],
+    "regions": [ "East Midlands", "West Midlands" ],
     "country": "UK",
     "tags": [ "Data Science", "Machine Learning", "Azure", "IoT" ]
   },
@@ -184,7 +184,7 @@
     "youtube": "",
     "vimeo": "",
     "cities": [ "Birmingham", "Worcester", "Cheltenham", "Gloucester" ],
-    "regions": [ "Midlands" ],
+    "regions": [ "West Midlands", "South West" ],
     "country": "UK",
     "tags": [ "Azure IaaS", "Web", "Azure PaaS", "Azure" ]
   },
@@ -226,7 +226,7 @@
     "youtube": "https://www.youtube.com/user/martinbeeby",
     "vimeo": "",
     "cities": [ "Northampton", "Birmingham", "London" ],
-    "regions": [ "Midlands", "South East" ],
+    "regions": [ "East Midlands", "West Midlands", "South East" ],
     "country": "UK",
     "tags": [ "Web", "JavaScript", "UWP", "TypeScript", "Microsoft Edge" ]
   },
@@ -268,7 +268,7 @@
     "youtube": "",
     "vimeo": "",
     "cities": [ "Leeds", "Manchester", "York", "Sheffield", "London" ],
-    "regions": [ "North East", "North West" ],
+    "regions": [ "Yorkshire & Humber", "North West" ],
     "country": "UK",
     "tags": [ "Azure", "DevOps", "Containers", "Windows Server" ]
   }
