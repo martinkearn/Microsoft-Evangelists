@@ -128,7 +128,7 @@
   {
     "id": "1089c2ea-786b-4451-95e2-ad037160e471",
     "name": "Joni Collinge",
-    "slogan": "I’m Martin Kearns guiding star",
+    "slogan": "Azure developer - I talk about code...",
     "bio": "Joni is a Technical Evangelist at Microsoft. He currently works with a range of customers to build next generation cloud systems which go beyond the capabilities of traditional infrastructure. His background is as a Software Engineer, working on both the Microsoft and OSS stacks. This has driven his passion for bridging the gap between the two traditionally distinct worlds and encouraging openness within Microsoft.",
     "picture": "http://oi66.tinypic.com/34xqgdf.jpg",
     "website": "http://dotjson.uk",
@@ -271,6 +271,27 @@
     "regions": [ "East Riding of Yorkshire", "North West" ],
     "country": "UK",
     "tags": [ "Azure", "DevOps", "Containers", "Windows Server" ]
+  },
+  {
+    "id": "1dcdfcfa-4a09-4c11-b218-f70a11d033ac",
+    "name": "Ed Baker",
+    "slogan": "Server listener",
+    "bio": "I am Ed Baker I have been using, deploying and actively evangelising Microsoft Server and Client operating systems since Windows 1.0. From that you can deduce two things, I am old and have some stamina.",
+    "picture": "https://borntolearn.mslearn.net/resized-image/__size/550x0/__key/communityserver-blogs-components-weblogfiles/00-00-00-00-08/0447.Ed-Baker-_2D00_-Microsoft.jpg",
+    "website": "http://ed-baker.com/",
+    "blog": "http://ed-baker.com/",
+    "twitter": "https://twitter.com/edbaker1965",
+    "linkedin": "",
+    "skype": "",
+    "github": "",
+    "stackoverflow": "",
+    "email": "edbaker@microsoft.com",
+    "youtube": "",
+    "vimeo": "",
+    "cities": [ "Redditch", "Birmingham" ],
+    "regions": [ "West Midlands" ],
+    "country": "UK",
+    "tags": [ "Azure", "Windows Server", "Windows 10", "Enterprise Mobility" ]
   }
 
 ]
