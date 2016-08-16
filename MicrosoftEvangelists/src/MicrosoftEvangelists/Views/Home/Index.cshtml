@@ -15,19 +15,25 @@
             <hr />
         </div>
         <form asp-controller="home" asp-action="Index" method="post">
-            <div class="col-md-4">
+            <div class="col-md-3">
+                <label>Country</label>
+                <select asp-items="@Model.AvaliableCountries" asp-for="SelectedCountry" class="form-control" onchange="this.form.submit()">
+                    <option>ALL</option>
+                </select>
+            </div>
+            <div class="col-md-3">
                 <label>Region</label>
                 <select asp-items="@Model.AvaliableRegions" asp-for="SelectedRegion" class="form-control" onchange="this.form.submit()">
                     <option>ALL</option>
                 </select>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <label>City</label>
                 <select asp-items="@Model.AvaliableCities" asp-for="SelectedCity" class="form-control" onchange="this.form.submit()">
                     <option>ALL</option>
                 </select>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <label>Expertise</label>
                 <select asp-items="@Model.AvaliableTags" asp-for="SelectedTag" class="form-control" onchange="this.form.submit()">
                     <option>ALL</option>
