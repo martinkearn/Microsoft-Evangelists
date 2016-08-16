@@ -120,7 +120,7 @@
     "email": "mtaulty@microsoft.com",
     "youtube": "",
     "vimeo": "https://vimeo.com/user2306475/",
-    "cities": [ "Manchester", "Leeds" ],
+    "cities": [ "Anywhere in the UK" ],
     "regions": [ "North West" ],
     "country": "UK",
     "tags": [ "More Personal Computing", "Windows 10", "UWP" ]
@@ -186,7 +186,7 @@
     "cities": [ "Birmingham", "Worcester", "Cheltenham", "Gloucester" ],
     "regions": [ "West Midlands", "South West" ],
     "country": "UK",
-    "tags": [ "Azure IaaS", "Web", "Azure PaaS", "Azure" ]
+    "tags": [ "Web", "Azure" ]
   },
   {
     "id": "48e5c21e-b579-46bb-bf34-2dde6c81baa7",
