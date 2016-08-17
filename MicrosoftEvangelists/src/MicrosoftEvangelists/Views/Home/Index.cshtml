@@ -96,7 +96,7 @@
                                     {
                                         <span> I cover @string.Join(", ", profile.cities.Take(3))</span>
                                         @if (profile.cities.Count > 3) { 
-                                            <span> and other places around @string.Join(", ", profile.regions)</span>
+                                            <span> and other places around @string.Join(", ", profile.regions.Where(r => r != "ALL"))</span>
                                         }
                                         <span>. I'm flexible though, contact me for details.</span>
                                     }                                            

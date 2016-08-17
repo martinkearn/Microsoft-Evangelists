@@ -121,7 +121,7 @@
     "youtube": "",
     "vimeo": "https://vimeo.com/user2306475/",
     "cities": [ "ALL" ],
-    "regions": [ "North West" ],
+    "regions": [ "North West", "ALL" ],
     "country": "UK",
     "tags": [ "More Personal Computing", "Windows 10", "UWP" ]
   },
