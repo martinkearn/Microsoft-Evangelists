@@ -81,7 +81,7 @@
     "cities": [ "London", "Reading" ],
     "regions": [ "South East" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "UWP", "Mobile", "Conversation-as-a-Service" ]
+    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "UWP", "Mobile", "Conversation-as-a-Platform" ]
   },
   {
     "id": "ee9469e7-389a-42bd-9be9-a224a22a0c58",
