@@ -15,10 +15,10 @@
     "email": "martin.kearn@microsoft.com",
     "youtube": "",
     "vimeo": "",
-    "cities": [ "Birmingham", "Worcester", "Coventry", "Cheltenham", "Gloucester", "Oxford" ],
+    "cities": [ "Birmingham", "Worcester", "Cheltenham", "Coventry", "Gloucester", "Oxford", "Bristol", "Cardiff", "Manchester" ],
     "regions": [ "West Midlands", "East Midlands", "South West" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Web", "Azure", "Office", "Windows 10", "More Personal Computing" ]
+    "tags": [ "Cognitive Services", "Web", "Azure", "Office", "Machine Learning", "Conversation-as-a-Platform", "More Personal Computing" ]
   },
   {
     "id": "6b3e0740-8263-4615-9369-d046758d1783",
@@ -36,7 +36,7 @@
     "email": "amynic@microsoft.com",
     "youtube": "",
     "vimeo": "",
-    "cities": [ "Rugby", "Reading", "London", "Coventry", "Birmingham", "Leicester", "Derby" ],
+    "cities": [ "Rugby", "Reading", "Coventry", "London", "Birmingham", "Leicester", "Derby" ],
     "regions": [ "East Midlands", "West Midlands" ],
     "country": "UK",
     "tags": [ "Data Science", "Machine Learning", "Azure", "IoT" ]
@@ -120,7 +120,7 @@
     "email": "mtaulty@microsoft.com",
     "youtube": "",
     "vimeo": "https://vimeo.com/user2306475/",
-    "cities": [ "Anywhere in the UK" ],
+    "cities": [ "ALL" ],
     "regions": [ "North West" ],
     "country": "UK",
     "tags": [ "More Personal Computing", "Windows 10", "UWP" ]
@@ -207,7 +207,7 @@
     "cities": [ "Bristol", "Bath", "London", "Swindon", "Cardiff" ],
     "regions": [ "South West", "South Wales" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "Conversation-as-a-Service" ]
+    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "Conversation-as-a-Platform" ]
   },
   {
     "id": "4ad3989c-572f-4f92-b18b-cec9fff4a760",

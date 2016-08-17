@@ -36,10 +36,10 @@ namespace MicrosoftEvangelists.Controllers
             //get filtered profiles and randomise order
             var rnd = new Random();
             var filteredProfiles = allProfiles
-                .Where(p => p.country == SelectedCountry || SelectedCountry == "ALL")
-                .Where(p => p.regions.Contains(SelectedRegion) || SelectedRegion == "ALL")
-                .Where(p => p.cities.Contains(SelectedCity) || SelectedCity == "ALL")
-                .Where(p => p.tags.Contains(SelectedTag) || SelectedTag == "ALL")
+                .Where(p => p.country == SelectedCountry || SelectedCountry == "ALL" || p.country.Contains("ALL"))
+                .Where(p => p.regions.Contains(SelectedRegion) || SelectedRegion == "ALL" || p.regions.Contains("ALL"))
+                .Where(p => p.cities.Contains(SelectedCity) || SelectedCity == "ALL" || p.cities.Contains("ALL"))
+                .Where(p => p.tags.Contains(SelectedTag) || SelectedTag == "ALL" || p.tags.Contains("ALL"))
                 .OrderBy(p => rnd.Next())
                 .ToList();
 
@@ -49,9 +49,13 @@ namespace MicrosoftEvangelists.Controllers
             var avaliableTags = allProfiles.SelectMany(p => p.tags).Distinct().ToList();
             var avaliableCountries = allProfiles.Select(p => p.country).Distinct().ToList();
             avaliableCities.Sort();
+            avaliableCities.Remove("ALL");
             avaliableRegions.Sort();
+            avaliableRegions.Remove("ALL");
             avaliableTags.Sort();
+            avaliableTags.Remove("ALL");
             avaliableCountries.Sort();
+            avaliableCountries.Remove("ALL");
 
             //create select lists for view
             var avaliableCitiesSelect = new SelectList(avaliableCities);
