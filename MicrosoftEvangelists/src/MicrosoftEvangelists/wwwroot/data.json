@@ -292,7 +292,29 @@
     "regions": [ "West Midlands" ],
     "country": "UK",
     "tags": [ "Azure", "Windows Server", "Windows 10", "Enterprise Mobility" ]
+  },
+  {
+    "id": "296f62ae-d404-4e6d-a59b-8104bad03728",
+    "name": "Lee Stott",
+    "slogan": "I'm into education and technology",
+    "bio": "Lee’s role is all about working with UK Academic to secure the future of the Microsoft platform to determine what our technical engagement looks like and to then work with our UK Technical Evangelist teams to have them support initiatives on/off campus.",
+    "picture": "https://pbs.twimg.com/profile_images/767475295087656961/sfRXI8hk.jpg",
+    "website": "http://blogs.msdn.microsoft.com/uk_faculty_connection",
+    "blog": "http://blogs.msdn.microsoft.com/uk_faculty_connection",
+    "twitter": "http://twitter.com/lee_stott",
+    "linkedin": "https://uk.linkedin.com/in/leestott",
+    "skype": "skype:leestott",
+    "github": "https://github.com/leestott",
+    "stackoverflow": "http://stackexchange.com/users/2280326/lee-stott",
+    "email": "leestott@microsoft.com",
+    "youtube": "",
+    "vimeo": "",
+    "cities": [ "Manchester", "Liverpool", "Sheffield", "Cambridge", "London", "Oxford" ],
+    "regions": [ "North West", "ALL" ],
+    "country": "UK",
+    "tags": [ "Cognitive Services", "Web", "Azure", "Windows 10", "More Personal Computing" ]
   }
+
 
 ]
 
