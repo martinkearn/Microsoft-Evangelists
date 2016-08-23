@@ -334,6 +334,27 @@
     "regions": [ "South East" ],
     "country": "UK",
     "tags": [ "Bot Framework", "Azure", "DevOps", "Conversation-as-a-Platform", "More Personal Computing" ]
+  },
+  {
+    "id": "22d6459b-2d76-4c70-91db-31b91c2a4ab5",
+    "name": "Paul Foster",
+    "slogan": "Applied IoT, MPC, Cognitive, Maker",
+    "bio": "Since joining Microsoft in 1994, Paul Foster has worked across a wide range of sectors and customers, providing a mix of technical and strategic guidance around the creative use of technology in relation to their business needs. As an established public speaker across Europe and having spent a considerable amount of time working on the cutting edge of technology providing leadership and inspiration on topics like Smart Devices, Cloud Computing, Education and App Development. Paul is currently working as a Technical Evangelist for Microsoft UK’s Developer Evangelism Group (DX), focusing on the building of next generation IoT solutions, and the cognitive services they enable to start a new era of perception and automation. For a short time Paul was a member of a high-wire flying trapeze circus troupe, is a keen roboticist and an international marathon runner.",
+    "picture": "/images/PaulFoster.jpg",
+    "website": "http://wotudo.net",
+    "blog": "http://wotudo.net",
+    "twitter": "http://twitter.com/paulfo",
+    "linkedin": "https://uk.linkedin.com/in/paulfo",
+    "skype": "",
+    "github": "https://github.com/pauldfoster",
+    "stackoverflow": "",
+    "email": "paulfo@microsoft.com",
+    "youtube": "",
+    "vimeo": "",
+    "cities": [ "Norwich" ],
+    "regions": [ "East Anglia" ],
+    "country": "UK",
+    "tags": [ "IoT", "Cognitive Services", "More Personal Computing" ]
   }
 
 
