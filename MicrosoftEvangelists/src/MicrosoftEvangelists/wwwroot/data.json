@@ -313,6 +313,27 @@
     "regions": [ "North West", "ALL" ],
     "country": "UK",
     "tags": [ "Cognitive Services", "Web", "Azure", "Windows 10", "More Personal Computing" ]
+  },
+  {
+    "id": "9b9c8e6b-9599-4233-80a7-22b27ff3f59a",
+    "name": "Jamie Dalton",
+    "slogan": "C#er, Maker and Breaker",
+    "bio": "Jamie Dalton works as a technical evangelist in the UK, helping customers and partners develop solutions based on the Microsoft platform. He really is as old as he looks, with over 20 years’ experience as a Microsoft software developer.  He is passionate about Application Lifecycle Management, developer tooling, DevOps and creating new experiences using Microsoft technologies in the cloud.  He has a degree from the university of life and once read some books.",
+    "picture": "/images/JamieDalton.jpg",
+    "website": "https://blogs.msdn.microsoft.com/jamiedalton",
+    "blog": "https://blogs.msdn.microsoft.com/jamiedalton",
+    "twitter": "http://twitter.com/daltskin",
+    "linkedin": "https://www.linkedin.com/in/jamie-dalton-904a0978",
+    "skype": "",
+    "github": "https://github.com/daltskin",
+    "stackoverflow": "http://stackoverflow.com/users/1291274/jamie-d",
+    "email": "jamie.dalton@microsoft.com",
+    "youtube": "",
+    "vimeo": "",
+    "cities": [ "Reading" ],
+    "regions": [ "South East" ],
+    "country": "UK",
+    "tags": [ "Bot Framework", "Azure", "DevOps", "Conversation-as-a-Platform", "More Personal Computing" ]
   }
 
 
