@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-12">
             <h3>@ViewData["Title"]</h3>
-            <p>Here you can find some of the UK-based technical speakers and leading experts on emerging technologies and trends from Microsoft. We offer expert presentations on a wide range of topics and speak at meetups, conferences and community events.</p>
+            <p>Here you can find some of the UK-based technical speakers and leading experts on emerging technologies and trends from Microsoft and our MVP community. We offer expert presentations on a wide range of topics and speak at meetups, conferences and community events.</p>
             <p>We try and make ourselves available where possible but sometimes geography, logistics and diaries work against us so it is best if you contact speakers who are geographically near to you initially.</p>
         </div>
         <div class="col-md-12">
@@ -46,108 +46,64 @@
     </div>
 </div>
 
-<div class="ui-125">
-    <div class="container">
-        <div class="row">
-            @if (Model.Profiles.Count == 0)
-            {
-                <div class="col-xs-12">
-                    <p>Sorry, we don't have any evangelists that match that criteria. Try a less restrictive search or <a href="mailto:ukdxte@microsoft.com?Subject=Evangelist%20Needed">Email Us</a> and someone will be in touch.</p>
-                </div>
-            }
-            else
-            {
-                @foreach (var profile in Model.Profiles)
-                {
-                    <div class="col-md-3 col-sm-6 col-xs-12 col-mob">
-                        <a data-toggle="modal" data-target="#@profile.id">
-                            <div class="profile-box">
-                                <img src="@profile.picture" alt="Picture of @profile.name" class="img-responsive" />
-                                <div class="profile-box-header">
-                                    <span>@profile.name</span>
-                                    <span><br /><small>@profile.slogan</small></span>
-                                    <span class="pull-right"><i class="fa fa-lg fa-angle-double-right" aria-hidden="true"></i></span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="@profile.id" tabindex="-1" role="dialog" aria-labelledby="@string.Join(profile.id,"Label")">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h2 class="modal-title darkpurple" id="@string.Join(profile.id,"Label")">@profile.name<br /><small class="lightpurple">@profile.slogan</small></h2>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="@profile.picture" alt="Picture of @profile.name" class="img-responsive" />
-                                    @profile.bio
-                                    <br />
-                                    <hr />
-                                    I'm into @string.Join(", ", profile.tags)
-                                    <hr />
-                                    I'm based in @profile.regions.FirstOrDefault(), @profile.country.
-                                    @if (profile.cities.Contains("ALL"))
-                                    {
-                                        <span> But I cover pretty much anywhere.</span>
-                                    }
-                                    else
-                                    {
-                                        <span> I cover @string.Join(", ", profile.cities.Take(3))</span>
-                                        @if (profile.cities.Count > 3) { 
-                                            <span> and other places around @string.Join(", ", profile.regions.Where(r => r != "ALL"))</span>
-                                        }
-                                        <span>. I'm flexible though, contact me for details.</span>
-                                    }                                            
-                                </div>
-                                <div class="modal-footer">
-                                    <div class="pull-left">
-                                        @if (!string.IsNullOrEmpty(profile.twitter))
-                                        {
-                                            <a href="@profile.twitter"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a>
-                                        }
-                                        @if (!string.IsNullOrEmpty(profile.linkedin))
-                                        {
-                                            <a href="@profile.linkedin"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a>
-                                        }
-                                        @if (!string.IsNullOrEmpty(profile.skype))
-                                        {
-                                            <a href="@profile.skype"><i class="fa fa-lg fa-skype" aria-hidden="true"></i></a>
-                                        }
-                                        @if (!string.IsNullOrEmpty(profile.github))
-                                        {
-                                            <a href="@profile.github"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a>
-                                        }
-                                        @if (!string.IsNullOrEmpty(profile.stackoverflow))
-                                        {
-                                            <a href="@profile.stackoverflow"><i class="fa fa-lg fa-stackoverflow" aria-hidden="true"></i></a>
-                                        }
-                                        @if (!string.IsNullOrEmpty(profile.email))
-                                        {
-                                            <a href="@profile.email"><i class="fa fa-lg fa-envelope-o" aria-hidden="true"></i></a>
-                                        }
-                                        @if (!string.IsNullOrEmpty(profile.blog))
-                                        {
-                                            <a href="@profile.blog"><i class="fa fa-lg fa-rss" aria-hidden="true"></i></a>
-                                        }
-                                        @if (!string.IsNullOrEmpty(profile.youtube))
-                                        {
-                                            <a href="@profile.youtube"><i class="fa fa-lg fa-youtube" aria-hidden="true"></i></a>
-                                        }
-                                        @if (!string.IsNullOrEmpty(profile.vimeo))
-                                        {
-                                            <a href="@profile.vimeo"><i class="fa fa-lg fa-vimeo" aria-hidden="true"></i></a>
-                                        }
-                                    </div>
-                                    <a class="btn btn-primary" href="@profile.website" role="button"><i class="fa fa-angle-double-right" aria-hidden="true"></i> See more on my site</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                }
+<div class="container">
+    <h2>Microsoft Technical Evangelists</h2>
+    <p>Microsoft Evangelists are people who work directly for Microsoft and have a carry a responsibility around developer and IT Pro outreach across a broad set of technologies. All our evangelists are expert technologists and seasoned speakers.</p>
+    <div class="row">
+        @if (Model.Profiles.Where(p => p.type == "TE").Count() == 0)
+        {
+            <div class="col-xs-12">
+                <p>Sorry, we don't have any evangelists that match that criteria. Try a less restrictive search or <a href="mailto:ukdxte@microsoft.com?Subject=Evangelist%20Needed">Email Us</a> and someone will be in touch.</p>
+            </div>
+        }
+        else
+        {
+            @foreach (var profile in Model.Profiles.Where(p => p.type == "TE"))
+            {
+                @Html.Partial("_ProfileBoxPartial", profile)
             }
-        </div>
+        }
+    </div>
+</div>
+
+<div class="container">
+    <h2>MVP Regional Directors</h2>
+    <p>Microsoft MVP Regional Directors are an elite sub-set of MVPs who have been especially chosen by Microsoft to represent and evanglise Microsoft technology within a specific region. MVPs Regional Directors are not employed or paid by Microsoft.</p>
+    <div class="row">
+        @if (Model.Profiles.Where(p => p.type == "RD").Count() == 0)
+            {
+            <div class="col-xs-12">
+                <p>Sorry, we don't have any MVP regional directors that match that criteria. Try a less restrictive search or <a href="mailto:ukdxte@microsoft.com?Subject=Evangelist%20Needed">Email Us</a> and someone will be in touch.</p>
+            </div>
+        }
+        else
+        {
+            @foreach (var profile in Model.Profiles.Where(p => p.type == "RD"))
+            {
+                @Html.Partial("_ProfileBoxPartial", profile)
+            }
+        }
+    </div>
+</div>
+
+<div class="container">
+    <h2>MVP's </h2>
+    <p>MVP's (Most Valuable Professional) are an elite set of technical specialists across a broad range of technologies who have been awarded MVP status by Microsoft for their work in the community. MVPs are not employed or paid by Microsoft.</p>
+    <div class="row">
+        @if (Model.Profiles.Where(p => p.type == "MVP").Count() == 0)
+            {
+            <div class="col-xs-12">
+                <p>Sorry, we don't have any MVPs that match that criteria. Try a less restrictive search or <a href="mailto:ukdxte@microsoft.com?Subject=Evangelist%20Needed">Email Us</a> and someone will be in touch.</p>
+            </div>
+        }
+        else
+        {
+            @foreach (var profile in Model.Profiles.Where(p => p.type == "MVP"))
+            {
+                @Html.Partial("_ProfileBoxPartial", profile)
+            }
+        }
     </div>
 </div>
 

@@ -26,5 +26,6 @@ namespace MicrosoftEvangelists.Models
         public List<string> regions { get; set; }
         public string country { get; set; }
         public List<string> tags { get; set; }
+        public string type { get; set; }
     }
 }

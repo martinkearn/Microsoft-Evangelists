@@ -18,7 +18,8 @@
     "cities": [ "Birmingham", "Worcester", "Cheltenham", "Coventry", "Gloucester", "Oxford", "Bristol", "Cardiff", "Manchester" ],
     "regions": [ "West Midlands", "East Midlands", "South West" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Web", "Azure", "Office", "Machine Learning", "Conversation-as-a-Platform", "More Personal Computing" ]
+    "tags": [ "Cognitive Services", "Web", "Azure", "Office", "Machine Learning", "Conversation-as-a-Platform", "More Personal Computing" ],
+    "type": "TE"
   },
   {
     "id": "6b3e0740-8263-4615-9369-d046758d1783",
@@ -39,7 +40,8 @@
     "cities": [ "Rugby", "Reading", "Coventry", "London", "Birmingham", "Leicester", "Derby" ],
     "regions": [ "East Midlands", "West Midlands" ],
     "country": "UK",
-    "tags": [ "Data Science", "Machine Learning", "Azure", "IoT" ]
+    "tags": [ "Data Science", "Machine Learning", "Azure", "IoT" ],
+    "type": "TE"
   },
   {
     "id": "8f5cc2a9-3ad1-4877-b00d-6aea5f3661af",
@@ -60,7 +62,8 @@
     "cities": [ "London", "Reading" ],
     "regions": [ "South East" ],
     "country": "UK",
-    "tags": [ "Data Science", "Azure", "Machine Learning", "IoT" ]
+    "tags": [ "Data Science", "Azure", "Machine Learning", "IoT" ],
+    "type": "TE"
   },
   {
     "id": "cfd62c6f-68c6-4b71-94f4-9711d7ab4da0",
@@ -81,7 +84,8 @@
     "cities": [ "London", "Reading" ],
     "regions": [ "South East" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "UWP", "Mobile", "Conversation-as-a-Platform" ]
+    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "UWP", "Mobile", "Conversation-as-a-Platform" ],
+    "type": "TE"
   },
   {
     "id": "ee9469e7-389a-42bd-9be9-a224a22a0c58",
@@ -102,7 +106,8 @@
     "cities": [ "London" ],
     "regions": [ "South East" ],
     "country": "UK",
-    "tags": [ "Virtual Reality", "Augmented Reality", "Mixed Reality", "HoloLens", "More Personal Computing" ]
+    "tags": [ "Virtual Reality", "Augmented Reality", "Mixed Reality", "HoloLens", "More Personal Computing" ],
+    "type": "TE"
   },
   {
     "id": "bc7c70f9-ac57-4208-af22-f9dd265b3312",
@@ -123,7 +128,8 @@
     "cities": [ "ALL" ],
     "regions": [ "North West", "ALL" ],
     "country": "UK",
-    "tags": [ "More Personal Computing", "Windows 10", "UWP" ]
+    "tags": [ "More Personal Computing", "Windows 10", "UWP" ],
+    "type": "TE"
   },
   {
     "id": "1089c2ea-786b-4451-95e2-ad037160e471",
@@ -144,7 +150,8 @@
     "cities": [ "London", "Reading", "Guildford" ],
     "regions": [ "South East" ],
     "country": "UK",
-    "tags": [ "Azure", "Microservices", "Containers", "IoT" ]
+    "tags": [ "Azure", "Microservices", "Containers", "IoT" ],
+    "type": "TE"
   },
   {
     "id": "7a3fbb33-73fc-4444-9dff-5a2999f9ebec",
@@ -165,7 +172,8 @@
     "cities": [ "London", "Reading" ],
     "regions": [ "South East" ],
     "country": "UK",
-    "tags": [ "Data Science", "Machine Learning", "Azure", "Business Intelligence", "SQL Server", "R" ]
+    "tags": [ "Data Science", "Machine Learning", "Azure", "Business Intelligence", "SQL Server", "R" ],
+    "type": "TE"
   },
   {
     "id": "bb130a41-d9c7-4434-9d1c-36c3f6bc0ae2",
@@ -186,7 +194,8 @@
     "cities": [ "Birmingham", "Worcester", "Cheltenham", "Gloucester" ],
     "regions": [ "West Midlands", "South West" ],
     "country": "UK",
-    "tags": [ "Web", "Azure" ]
+    "tags": [ "Web", "Azure" ],
+    "type": "TE"
   },
   {
     "id": "48e5c21e-b579-46bb-bf34-2dde6c81baa7",
@@ -207,7 +216,8 @@
     "cities": [ "Bristol", "Bath", "London", "Swindon", "Cardiff" ],
     "regions": [ "South West", "South Wales" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "Conversation-as-a-Platform" ]
+    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "Conversation-as-a-Platform" ],
+    "type": "TE"
   },
   {
     "id": "4ad3989c-572f-4f92-b18b-cec9fff4a760",
@@ -228,7 +238,8 @@
     "cities": [ "Northampton", "Birmingham", "London" ],
     "regions": [ "East Midlands", "West Midlands", "South East" ],
     "country": "UK",
-    "tags": [ "Web", "JavaScript", "UWP", "TypeScript", "Microsoft Edge" ]
+    "tags": [ "Web", "JavaScript", "UWP", "TypeScript", "Microsoft Edge" ],
+    "type": "TE"
   },
   {
     "id": "90a8c222-9df4-4627-ae20-1a66bf1edc01",
@@ -249,7 +260,8 @@
     "cities": [ "Bristol", "Cardiff", "Bath" ],
     "regions": [ "South West" ],
     "country": "UK",
-    "tags": [ "Creative", "More Personal Computing" ]
+    "tags": [ "Creative", "More Personal Computing" ],
+    "type": "TE"
   },
   {
     "id": "879a1bef-ab5b-46b0-b35d-e9ed6b872131",
@@ -270,7 +282,8 @@
     "cities": [ "Leeds", "Manchester", "York", "Sheffield", "London" ],
     "regions": [ "Yorkshire", "North West" ],
     "country": "UK",
-    "tags": [ "Azure", "DevOps", "Containers", "Windows Server" ]
+    "tags": [ "Azure", "DevOps", "Containers", "Windows Server" ],
+    "type": "TE"
   },
   {
     "id": "1dcdfcfa-4a09-4c11-b218-f70a11d033ac",
@@ -291,7 +304,8 @@
     "cities": [ "Redditch", "Birmingham" ],
     "regions": [ "West Midlands" ],
     "country": "UK",
-    "tags": [ "Azure", "Windows Server", "Windows 10", "Enterprise Mobility" ]
+    "tags": [ "Azure", "Windows Server", "Windows 10", "Enterprise Mobility" ],
+    "type": "TE"
   },
   {
     "id": "296f62ae-d404-4e6d-a59b-8104bad03728",
@@ -312,7 +326,8 @@
     "cities": [ "Manchester", "Liverpool", "Sheffield", "Cambridge", "London", "Oxford" ],
     "regions": [ "North West", "ALL" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Web", "Azure", "Windows 10", "More Personal Computing" ]
+    "tags": [ "Cognitive Services", "Web", "Azure", "Windows 10", "More Personal Computing" ],
+    "type": "TE"
   },
   {
     "id": "9b9c8e6b-9599-4233-80a7-22b27ff3f59a",
@@ -333,7 +348,8 @@
     "cities": [ "Reading" ],
     "regions": [ "South East" ],
     "country": "UK",
-    "tags": [ "Bot Framework", "Azure", "DevOps", "Conversation-as-a-Platform", "More Personal Computing" ]
+    "tags": [ "Bot Framework", "Azure", "DevOps", "Conversation-as-a-Platform", "More Personal Computing" ],
+    "type": "TE"
   },
   {
     "id": "22d6459b-2d76-4c70-91db-31b91c2a4ab5",
@@ -354,7 +370,52 @@
     "cities": [ "Norwich" ],
     "regions": [ "East Anglia" ],
     "country": "UK",
-    "tags": [ "IoT", "Cognitive Services", "More Personal Computing" ]
+    "tags": [ "IoT", "Cognitive Services", "More Personal Computing" ],
+    "type": "TE"
+  },
+  {
+    "id": "f54d65f4-7a6b-4ddf-aae8-a933a3dc8b5f",
+    "name": "Robert Hogg",
+    "slogan": "Managing Director @ Black Marble",
+    "bio": "Robert began his career in IT in the 1980s, and in 1997 was a founding member of Black Marble. He has extensive experience in a broad spectrum of disciplines, including multi-platform development, software design, encryption systems, integration solutions and innovative technologies.",
+    "picture": "/images/RobertHogg.jpg",
+    "website": "http://www.blackmarble.co.uk/about/people/robert-hogg/",
+    "blog": "http://blogs.blackmarble.co.uk/blogs/boss/",
+    "twitter": "http://www.twitter.com/roberthogg",
+    "linkedin": "https://www.linkedin.com/company/black-marble",
+    "skype": "",
+    "github": "",
+    "stackoverflow": "",
+    "email": "enquiries@blackmarble.com",
+    "youtube": "",
+    "vimeo": "",
+    "cities": [ "Leeds" ],
+    "regions": [ "Yorkshire" ],
+    "country": "UK",
+    "tags": [ "IoT", "More Personal Computing" ],
+    "type": "RD"
+  },
+  {
+    "id": "b7332136-3026-427b-89ea-3e93558df9d6",
+    "name": "Wes Hackett",
+    "slogan": "SharePoint MVP and a CTO at AddIn365",
+    "bio": "Hi my name is Wes Hackett, I’m a SharePoint MVP and a Chief Technical Officer at AddIn365 focused on SharePoint and other Microsoft technologies.",
+    "picture": "/images/WesHackett.jpg",
+    "website": "http://weshackett.com",
+    "blog": "http://weshackett.com",
+    "twitter": "https://twitter.com/weshackett",
+    "linkedin": "",
+    "skype": "",
+    "github": "",
+    "stackoverflow": "http://sharepoint.stackexchange.com/users/2915/wes-hackett",
+    "email": "wes@addin365.com",
+    "youtube": "",
+    "vimeo": "",
+    "cities": [ "London", "Reading" ],
+    "regions": [ "South East" ],
+    "country": "UK",
+    "tags": [ "SharePoint", "Office 365" ],
+    "type": "MVP"
   }
 
 
