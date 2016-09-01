@@ -416,7 +416,30 @@
     "country": "UK",
     "tags": [ "SharePoint", "Office 365" ],
     "type": "MVP"
+  },
+  {
+    "id": "5ba991c7-a07d-40ef-9561-149d96687e76",
+    "name": "David Gristwood",
+    "slogan": "Azure, Azure and Azure",
+    "bio": "David Gristwood works as technical evangelist at Microsoft in the UK where he has spent his time helping developers and technical folk understand and get the best from the Microsoft platform. He works as architect with deep technical skills in Microsoft Azure and the Microsoft cloud platform, primarily working with partners who are looking to design and build new and innovative solutions on the cloud. Prior to Microsoft, David secured a Distinction in Computing Science at Newcastle University, worked as a freelance computer journalist, a visiting lecturer at Sunderland University, a director of a software company, as well has having designed and developed a wide range of software solutions, from warehouse to financial systems, over the years, going back to the days of the Commodore PET computer.",
+    "picture": "/images/DavidGristwood.png",
+    "website": "https://blogs.msdn.microsoft.com/david_gristwood/",
+    "blog": "https://blogs.msdn.microsoft.com/david_gristwood/",
+    "twitter": "https://twitter.com/ScroffTheBad",
+    "linkedin": "https://www.linkedin.com/in/davidgristwood",
+    "skype": "skype:davidgristwood",
+    "github": "github.com/davidgristwood",
+    "stackoverflow": "http://stackoverflow.com/users/6782771/david-gristwood",
+    "email": "david.gristwood@microsoft.com",
+    "youtube": "",
+    "vimeo": "",
+    "cities": [ "London", "Reading" ],
+    "regions": [ "South East" ],
+    "country": "UK",
+    "tags": [ "Web", "Azure", "IoT", "Microservices" ],
+    "type": "TE"
   }
+
 
 
 ]
