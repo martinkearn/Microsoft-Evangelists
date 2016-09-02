@@ -438,6 +438,28 @@
     "country": "UK",
     "tags": [ "Web", "Azure", "IoT", "Microservices" ],
     "type": "TE"
+  },
+  {
+    "id": "f164029e-b7c4-4aba-8394-d802501e3bd0",
+    "name": "Rob Fraser",
+    "slogan": "Things to Come",
+    "bio": "Rob joined Microsoft in 2011 as Cloud CTO and now considers himself to have the best job in the world leading UK Technical Evangelism. Prior to Microsoft, Rob was a founder and CTO of RiskMetrics Group, a highly successful Financial Services Software-as-a-Service technology firm and was part of the Microsoft Customer Advisory Board on Cloud Computing. Originally an Aerospace Engineering apprentice at BAE Systems, Rob has a PhD in Artificial Intelligence.",
+    "picture": "/images/RobFraser.jpg",
+    "website": "http://www.linkedin.com/in/rjcfraser",
+    "blog": "",
+    "twitter": "",
+    "linkedin": "http://www.linkedin.com/in/rjcfraser",
+    "skype": "",
+    "github": "",
+    "stackoverflow": "",
+    "email": "rfraser@microsoft.com",
+    "youtube": "",
+    "vimeo": "",
+    "cities": [ "London", "Cambridge", "Milton Keynes”" ],
+    "regions": [ "East Midlands", "ALL" ],
+    "country": "UK",
+    "tags": [ "Technology Futures", "Technology Strategy", "SaaS", "Cloud", "Artificial Intelligence", "Futurism" ],
+    "type": "TE"
   }
 
 
