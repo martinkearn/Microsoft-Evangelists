@@ -16,9 +16,9 @@
     "youtube": "",
     "vimeo": "",
     "cities": [ "Birmingham", "Worcester", "Cheltenham", "Coventry", "Gloucester", "Oxford", "Bristol", "Cardiff", "Manchester" ],
-    "regions": [ "West Midlands", "East Midlands", "South West" ],
+    "regions": [ "West Midlands", "ALL" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Web", "Azure", "Office", "Machine Learning", "Conversation-as-a-Platform", "More Personal Computing" ],
+    "tags": [ "Cognitive Services", "Web", "Azure", "Office", "Machine Learning", "Conversation-as-a-Platform", "More Personal Computing", "Artificial Intelligence" ],
     "type": "TE"
   },
   {
@@ -40,7 +40,7 @@
     "cities": [ "Rugby", "Reading", "Coventry", "London", "Birmingham", "Leicester", "Derby" ],
     "regions": [ "East Midlands", "West Midlands" ],
     "country": "UK",
-    "tags": [ "Data Science", "Machine Learning", "Azure", "IoT" ],
+    "tags": [ "Data Science", "Machine Learning", "Azure", "IoT", "Artificial Intelligence" ],
     "type": "TE"
   },
   {
@@ -62,7 +62,7 @@
     "cities": [ "London", "Reading" ],
     "regions": [ "South East" ],
     "country": "UK",
-    "tags": [ "Data Science", "Azure", "Machine Learning", "IoT" ],
+    "tags": [ "Data Science", "Azure", "Machine Learning", "IoT", "Artificial Intelligence" ],
     "type": "TE"
   },
   {
@@ -84,7 +84,7 @@
     "cities": [ "London", "Reading" ],
     "regions": [ "South East" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "UWP", "Mobile", "Conversation-as-a-Platform" ],
+    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "Universal Windows Platform", "Android", "Conversation-as-a-Platform" ],
     "type": "TE"
   },
   {
@@ -128,7 +128,7 @@
     "cities": [ "ALL" ],
     "regions": [ "North West", "ALL" ],
     "country": "UK",
-    "tags": [ "More Personal Computing", "Windows 10", "UWP" ],
+    "tags": [ "More Personal Computing", "Windows 10", "Universal Windows Platform" ],
     "type": "TE"
   },
   {
@@ -172,7 +172,7 @@
     "cities": [ "London", "Reading" ],
     "regions": [ "South East" ],
     "country": "UK",
-    "tags": [ "Data Science", "Machine Learning", "Azure", "Business Intelligence", "SQL Server", "R" ],
+    "tags": [ "Data Science", "Machine Learning", "Azure", "Business Intelligence", "SQL Server", "R", "Artificial Intelligence" ],
     "type": "TE"
   },
   {
@@ -216,7 +216,7 @@
     "cities": [ "Bristol", "Bath", "London", "Swindon", "Cardiff" ],
     "regions": [ "South West", "South Wales" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "Conversation-as-a-Platform" ],
+    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "Conversation-as-a-Platform", "Artificial Intelligence" ],
     "type": "TE"
   },
   {
@@ -238,7 +238,7 @@
     "cities": [ "Northampton", "Birmingham", "London" ],
     "regions": [ "East Midlands", "West Midlands", "South East" ],
     "country": "UK",
-    "tags": [ "Web", "JavaScript", "UWP", "TypeScript", "Microsoft Edge" ],
+    "tags": [ "Web", "JavaScript", "Universal Windows Platform", "TypeScript", "Microsoft Edge" ],
     "type": "TE"
   },
   {
@@ -458,7 +458,7 @@
     "cities": [ "London", "Cambridge", "Milton Keynes”" ],
     "regions": [ "East Midlands", "ALL" ],
     "country": "UK",
-    "tags": [ "Technology Futures", "Technology Strategy", "SaaS", "Cloud", "Artificial Intelligence", "Futurism" ],
+    "tags": [ "Technology Futures", "Technology Strategy", "SaaS", "Cloud (general)", "Azure", "Artificial Intelligence", "Futurism" ],
     "type": "TE"
   }
 
