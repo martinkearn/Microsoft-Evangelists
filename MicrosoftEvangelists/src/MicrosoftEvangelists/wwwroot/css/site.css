@@ -123,7 +123,9 @@ label {
 
 .profile-box img {
     max-width:262px; 
-    max-height:262px
+    max-height:262px;
+    filter: grayscale(10) saturate(2);
+    -webkit-filter: grayscale(10) saturate(2);
 }
 
 .profile-box-header {
