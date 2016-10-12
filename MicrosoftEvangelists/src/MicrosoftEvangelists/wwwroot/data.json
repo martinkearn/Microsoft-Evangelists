@@ -18,7 +18,7 @@
     "cities": [ "Birmingham", "Worcester", "Cheltenham", "Coventry", "Gloucester", "Oxford", "Bristol", "Cardiff", "Manchester" ],
     "regions": [ "West Midlands", "ALL" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Web", "Azure", "Office", "Machine Learning", "Conversation-as-a-Platform", "More Personal Computing", "Artificial Intelligence" ],
+    "tags": [ "Cognitive Services", "Web", "Azure", "Office 365", "Machine Learning", "Conversation-as-a-Platform", "More Personal Computing", "Artificial Intelligence" ],
     "type": "TE"
   },
   {
@@ -393,7 +393,7 @@
     "regions": [ "Yorkshire" ],
     "country": "UK",
     "tags": [ "IoT", "More Personal Computing" ],
-    "type": "RD"
+    "type": "MVP"
   },
   {
     "id": "b7332136-3026-427b-89ea-3e93558df9d6",
@@ -455,7 +455,7 @@
     "email": "rfraser@microsoft.com",
     "youtube": "",
     "vimeo": "",
-    "cities": [ "London", "Cambridge", "Milton Keynes”" ],
+    "cities": [ "London", "Cambridge", "Milton Keynes" ],
     "regions": [ "East Midlands", "ALL" ],
     "country": "UK",
     "tags": [ "Technology Futures", "Technology Strategy", "SaaS", "Cloud (general)", "Azure", "Artificial Intelligence", "Futurism" ],

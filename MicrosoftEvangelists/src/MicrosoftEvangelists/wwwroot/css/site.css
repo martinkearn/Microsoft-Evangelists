@@ -77,6 +77,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: rgb(92, 45, 145);
 }
 
+.magenta {
+    color: rgb(180, 0, 158);
+}
+
 .darkpurplebackground {
     background-color: rgb(50, 20, 90);
 }
@@ -100,7 +104,16 @@ label {
     position: relative;
     overflow: hidden;
     height: 100%;
+    border:solid;
+    border-width: 5px;
+}
 
+.profile-box-lightpurple {
+    border-color: rgb(92, 45, 145);
+}
+
+.profile-box-magenta {
+    border-color: rgb(180, 0, 158);
 }
 
     .profile-box:hover {
@@ -122,8 +135,12 @@ label {
     color: #fff;
 }
 
-.profile-box-header:hover {
-    background: rgba(50, 20, 90,0.9);
+.profile-box-lightpurple-header:hover {
+    background: rgba(92, 45, 145,0.9);
+}
+
+.profile-box-magenta-header:hover {
+    background: rgba(180, 0, 158,0.9);
 }
 
 .modal-body img {

@@ -48,7 +48,7 @@
 
 
 <div class="container">
-    <h2>Microsoft Technical Evangelists</h2>
+    <h2 class="lightpurple">Microsoft Technical Evangelist</h2>
     <p>Microsoft Evangelists are people who work directly for Microsoft and have a carry a responsibility around developer and IT Pro outreach across a broad set of technologies. All our evangelists are expert technologists and seasoned speakers.</p>
     @if (Model.Profiles.Where(p => p.type == "TE").Count() > 0)
     {
@@ -66,38 +66,20 @@
 </div>
 
 
-@*@if (Model.Profiles.Where(p => p.type == "RD").Count() > 0)
+
+@if (Model.Profiles.Where(p => p.type == "MVP").Count() > 0)
 {
     <div class="container">
-        <h2>MVP Regional Directors</h2>
-        <p>Microsoft MVP Regional Directors are an elite sub-set of MVPs who have been especially chosen by Microsoft to represent and evanglise Microsoft technology within a specific region. MVPs Regional Directors are not employed or paid by Microsoft.</p>
+        <h2 class="magenta">Most Valuable Professional (MVP)</h2>
+        <p>Most Valuable Professionals (MVP) are an elite set of technical specialists across a broad range of technologies who have been awarded MVP status by Microsoft for their work in the community. MVPs are not employed or paid by Microsoft.</p>
         <div class="row">
-
-            @foreach (var profile in Model.Profiles.Where(p => p.type == "RD"))
-            {
-                @Html.Partial("_ProfileBoxPartial", profile)
-            }
-
-        </div>
-    </div>
-}*@
-
-
-@*@if (Model.Profiles.Where(p => p.type == "MVP").Count() > 0)
-{
-    <div class="container">
-        <h2>MVP's </h2>
-        <p>MVP's (Most Valuable Professional) are an elite set of technical specialists across a broad range of technologies who have been awarded MVP status by Microsoft for their work in the community. MVPs are not employed or paid by Microsoft.</p>
-        <div class="row">
-
             @foreach (var profile in Model.Profiles.Where(p => p.type == "MVP"))
             {
                 @Html.Partial("_ProfileBoxPartial", profile)
             }
-
         </div>
     </div>
-}*@
+}
 
 @section scripts{
 }
