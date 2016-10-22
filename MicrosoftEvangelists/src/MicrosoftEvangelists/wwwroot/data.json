@@ -106,7 +106,7 @@
     "cities": [ "London" ],
     "regions": [ "South East" ],
     "country": "UK",
-    "tags": [ "Virtual Reality", "Augmented Reality", "Mixed Reality", "HoloLens", "More Personal Computing" ],
+    "tags": [ "Virtual Reality", "Augmented Reality", "Mixed Reality", "Hololens", "More Personal Computing" ],
     "type": "TE"
   },
   {
@@ -128,7 +128,7 @@
     "cities": [ "ALL" ],
     "regions": [ "North West", "ALL" ],
     "country": "UK",
-    "tags": [ "More Personal Computing", "Windows 10", "Universal Windows Platform" ],
+    "tags": [ "More Personal Computing", "Windows 10", "Universal Windows Platform", "Hololens" ],
     "type": "TE"
   },
   {
