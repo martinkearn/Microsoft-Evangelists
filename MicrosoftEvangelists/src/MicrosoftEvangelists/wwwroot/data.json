@@ -287,28 +287,6 @@
     "type": "TE"
   },
   {
-    "id": "1dcdfcfa-4a09-4c11-b218-f70a11d033ac",
-    "name": "Ed Baker",
-    "slogan": "Server listener",
-    "bio": "I am Ed Baker I have been using, deploying and actively evangelising Microsoft Server and Client operating systems since Windows 1.0. From that you can deduce two things, I am old and have some stamina.",
-    "picture": "/images/edbaker.jpg",
-    "website": "http://ed-baker.com/",
-    "blog": "http://ed-baker.com/",
-    "twitter": "https://twitter.com/edbaker1965",
-    "linkedin": "",
-    "skype": "",
-    "github": "",
-    "stackoverflow": "",
-    "email": "edbaker@microsoft.com",
-    "youtube": "",
-    "vimeo": "",
-    "cities": [ "Redditch", "Birmingham" ],
-    "regions": [ "West Midlands" ],
-    "country": "UK",
-    "tags": [ "Azure", "Windows Server", "Windows 10", "Enterprise Mobility" ],
-    "type": "TE"
-  },
-  {
     "id": "296f62ae-d404-4e6d-a59b-8104bad03728",
     "name": "Lee Stott",
     "slogan": "I'm into education and technology",
