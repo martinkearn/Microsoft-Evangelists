@@ -636,6 +636,34 @@
     "country": "UK",
     "tags": [ "Xamarin", "Mobile", "Azure Mobile", "More Personal Computing" ],
     "type": "MVP"
+  },
+  {
+    "id": "a9b4b445-68bd-4f7c-9d4e-74f89e11440c",
+    "name": "Stuart Leeks",
+    "slogan": "This web thing might take off...",
+    "bio": "By day, Stuart Leeks is a Technical Evangelist working for Microsoft in the UK. He has worked with a wide range of customers from small ISVs to large enterprises to help them be successful building on the Microsoft technology stack. Whilst Stuart has experience of a diverse set of technologies, he is most passionate about the web and cloud. Stuart is a web geek, cloud nut, performance & scalability enthusiast, father of three, husband, salsa dancer & teacher, and loves bad puns. He has been writing code since the days of the BBC Micro and still gets a kick out of it!",
+    "picture": "/images/Stuart Leeks.jpg",
+    "website": "http://twitter.com/stuartleeks",
+    "blog": "https://blogs.msdn.microsoft.com/stuartleeks",
+    "twitter": "http://twitter.com/stuartleeks",
+    "linkedin": "https://www.linkedin.com/in/stuartleeks",
+    "skype": "skype:stuart.leeks",
+    "github": "https://github.com/stuartleeks",
+    "stackoverflow": "http://stackoverflow.com/story/stuartleeks",
+    "email": "stuart.leeks@microsoft.com",
+    "youtube": "",
+    "vimeo": "",
+    "cities": [ "Reading", "Oxford", "London" ],
+    "regions": [ "South East", "ALL" ],
+    "country": "UK",
+    "tags": [
+      "Web",
+      "Azure",
+      ".NET Core",
+      "Containers",
+      "PowerShell"
+    ],
+    "type": "TE"
   }
 ]
 
