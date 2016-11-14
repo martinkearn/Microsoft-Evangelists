@@ -10,21 +10,26 @@ using MicrosoftEvangelists.ViewModels;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Net.Http;
 using System.Globalization;
+using Microsoft.Extensions.Logging;
 
 namespace MicrosoftEvangelists.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ILogger _logger;
+        public HomeController(ILoggerFactory loggerFactory)
+        {
+            _logger = loggerFactory.CreateLogger<HomeController>();
+        }
         public async Task<IActionResult> Index(string SelectedCountry = "ALL", string SelectedRegion = "ALL", string SelectedCity = "ALL", string SelectedTag = "ALL")
         {
             //get data from live file or session
             if (string.IsNullOrEmpty(ReadSessionData("data")))
             {
-                using (var httpClient = new HttpClient())
+                var baseUrl = new Uri($"{Request.Scheme}://{Request.Host}");
+                using (var httpClient = new HttpClient() { BaseAddress = baseUrl })
                 {
-                    var dataUrl = "http://microsoftevangelists.azurewebsites.net/data.json";
-                    httpClient.BaseAddress = new Uri(dataUrl);
-                    var responseMessage = await httpClient.GetAsync(dataUrl);
+                    var responseMessage = await httpClient.GetAsync("/data.json");
                     var responseMessageString = await responseMessage.Content.ReadAsStringAsync();
                     SetSessionData("data", responseMessageString);
                 }
