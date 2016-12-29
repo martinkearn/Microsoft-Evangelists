@@ -730,6 +730,28 @@
     "country": "UK",
     "tags": [ "Cognitive Services", "Web", "Azure", "Machine Learning", "Conversation-as-a-Platform", "More Personal Computing", "Artificial Intelligence" ],
     "type": "TE"
+  },
+  {
+    "id": "6b60a696-5f89-49c0-af66-485797b3d318",
+    "name": "Barbara Fusinska",
+    "slogan": "Machine Learning, Artificial Intelligence and once again Data!",
+    "bio": "Barbara is a Data Solution Architect with strong software development background. While working with a variety of different companies, she gained experience in building diverse software systems. This experience brought her focus to the Data Science and Big Data field. She believes in the importance of the data and metrics when growing a successful business. Alongside collaborating around data architectures, Barbara still enjoys programming activities. Currently speaking at conferences in-between working in London.",
+    "picture": "/images/BarbaraFusinska.jpg",
+    "website": "http://barbarafusinska.com/",
+    "blog": "",
+    "twitter": "https://twitter.com/basiafusinska",
+    "linkedin": "https://uk.linkedin.com/in/barbarafusinska",
+    "skype": "",
+    "github": "https://github.com/BasiaFusinska",
+    "stackoverflow": "",
+    "email": "barbara.fusinska@microsoft.com",
+    "youtube": "",
+    "vimeo": "",
+    "cities": [ "London", "ALL" ],
+    "regions": [ "London", "ALL" ],
+    "country": "UK",
+    "tags": [ "Data Science", "Machine Learning", "Deep Learning", "Artificial Intelligence", "Cognitive Services", "Bots" ],
+    "type": "TE"
   }
 ]
 
