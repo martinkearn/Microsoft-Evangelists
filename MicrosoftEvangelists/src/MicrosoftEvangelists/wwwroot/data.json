@@ -752,6 +752,29 @@
     "country": "UK",
     "tags": [ "Data Science", "Machine Learning", "Deep Learning", "Artificial Intelligence", "Cognitive Services", "Bots" ],
     "type": "TE"
+  },
+  {
+    "id": "CB6CBA28-E281-4D74-BAF2-E0C6295EA9FE",
+    "name": "Gary Pretty",
+    "slogan": "Technical Strategist @ Mando. Passionate about Bot Framework, Conversation as a platform and Cognitive Services",
+    "bio": " Gary is a Microsoft MVP and a Senior Developer and Technical Strategist at Mando in the UK, where he has spent the last 7 years of his career. He works with technologies across the Microsoft stack, but is particularly passionate about Bot Framework, Microsoft Cognitive Services, and Conversation as a Platform.",
+    "picture": "/images/GaryPretty.png",
+    "website": " http://www.garypretty.co.uk ",
+    "blog": "http://www.garypretty.co.uk",
+    "twitter": "http://twitter.com/garypretty",
+    "linkedin": "https://www.linkedin.com/in/garypretty",
+    "skype": "skype:gary.pretty",
+    "github": "https://github.com/garypretty",
+    "stackoverflow": "",
+    "email": "gary@garypretty.co.uk",
+    "youtube": "",
+    "vimeo": "",
+    "cities": [ "Liverpool", "Manchester", "“London”" ],
+    "regions": [ "North West", "ALL" ],
+    "country": "UK",
+    "tags": [ "Bot Framework", "Cognitive Services", "Conversation-as-a-Platform" ],
+    "type": "MVP"
   }
+
 ]
 
