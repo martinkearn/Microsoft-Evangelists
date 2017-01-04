@@ -18,7 +18,7 @@
     "cities": [ "Birmingham", "Worcester", "Cheltenham", "Coventry", "Gloucester", "Oxford", "Bristol", "Cardiff", "Manchester", "Redditch" ],
     "regions": [ "West Midlands", "ALL" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Web", "Azure", "Office 365", "Machine Learning", "Conversation-as-a-Platform", "More Personal Computing", "Artificial Intelligence" ],
+    "tags": [ "Cognitive Services", "Web", "Azure", "Office 365", "Machine Learning", "Conversation-as-a-Platform (bots)", "More Personal Computing", "Artificial Intelligence" ],
     "type": "TE"
   },
   {
@@ -84,7 +84,7 @@
     "cities": [ "London", "Reading" ],
     "regions": [ "South East" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "Universal Windows Platform", "Android", "Conversation-as-a-Platform" ],
+    "tags": [ "Cognitive Services", "Conversation-as-a-Platform (bots)", "Azure", "Universal Windows Platform", "Android" ],
     "type": "TE"
   },
   {
@@ -216,7 +216,7 @@
     "cities": [ "Bristol", "Bath", "London", "Swindon", "Cardiff" ],
     "regions": [ "South West", "South Wales" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "Conversation-as-a-Platform", "Artificial Intelligence" ],
+    "tags": [ "Cognitive Services", "Conversation-as-a-Platform (bots)", "Azure", "Conversation-as-a-Platform (bots)", "Artificial Intelligence" ],
     "type": "TE"
   },
   {
@@ -327,7 +327,7 @@
     "cities": [ "Reading" ],
     "regions": [ "South East" ],
     "country": "UK",
-    "tags": [ "Bot Framework", "Azure", "DevOps", "Conversation-as-a-Platform", "More Personal Computing" ],
+    "tags": [ "Conversation-as-a-Platform (bots)", "Azure", "DevOps", "Conversation-as-a-Platform (bots)", "More Personal Computing" ],
     "type": "TE"
   },
   {
@@ -547,7 +547,7 @@
     "cities": [ "London", "Ashford", "Derby", "Manchester" ],
     "regions": [ "South East", "East Midlands" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Bot Framework", "Azure", "Big Data", "Artificial Intelligence", "Data Platform" ],
+    "tags": [ "Cognitive Services", "Conversation-as-a-Platform (bots)", "Azure", "Big Data", "Artificial Intelligence", "Data Platform" ],
     "type": "MVP"
   },
   {
@@ -632,7 +632,7 @@
     "youtube": "",
     "vimeo": "",
     "cities": [ "Birmingham", "Peterborough", "London", "Bristol" ],
-    "regions": [ "East Midlands", "ALL" ],
+    "regions": [ "East Midlands" ],
     "country": "UK",
     "tags": [ "Xamarin", "Mobile", "Azure Mobile", "More Personal Computing" ],
     "type": "MVP"
@@ -654,15 +654,9 @@
     "youtube": "",
     "vimeo": "",
     "cities": [ "Reading", "Oxford", "London" ],
-    "regions": [ "South East", "ALL" ],
+    "regions": [ "South East" ],
     "country": "UK",
-    "tags": [
-      "Web",
-      "Azure",
-      ".NET Core",
-      "Containers",
-      "PowerShell"
-    ],
+    "tags": ["Web","Azure",".NET Core","Containers","PowerShell"],
     "type": "TE"
   },
   {
@@ -681,10 +675,10 @@
     "email": "jon.maunder@microsoft.com",
     "youtube": "",
     "vimeo": "",
-    "cities": [ "Reading", "London", "ALL" ],
-    "regions": [ "South West", "London", "ALL" ],
+    "cities": [ "Reading", "London" ],
+    "regions": [ "South West", "London" ],
     "country": "UK",
-    "tags": [ "Enterprise Mobility", "Security", "Azure", "Azure AD", "Office 365", "Office", "Productivity", "Windows 10", "Digital Transformation", "Trusted Cloud", "Privacy" ],
+    "tags": [ "Enterprise Mobility", "Security", "Azure", "Azure AD", "Office 365", "Productivity", "Windows 10", "Digital Transformation", "Trusted Cloud", "Privacy" ],
     "type": "TE"
   },
   {
@@ -703,10 +697,10 @@
     "email": "joaopedro.martins@microsoft.com",
     "youtube": "",
     "vimeo": "",
-    "cities": [ "Reading", "London", "ALL" ],
-    "regions": [ "South West", "London", "ALL" ],
+    "cities": [ "Reading", "London" ],
+    "regions": [ "South West", "London" ],
     "country": "UK",
-    "tags": [ "Azure", "Azure AD", "Azure AppService", "Azure Service Fabric", "Azure Service Bus", "Azure PaaS", "Azure in Finance" ],
+    "tags": [ "Azure", "Azure AD", "Azure AppService", "Azure Service Fabric", "Azure Service Bus", "Azure PaaS" ],
     "type": "TE"
   },
   {
@@ -728,7 +722,7 @@
     "cities": [ "London" ],
     "regions": [ "London" ],
     "country": "UK",
-    "tags": [ "Cognitive Services", "Web", "Azure", "Machine Learning", "Conversation-as-a-Platform", "More Personal Computing", "Artificial Intelligence" ],
+    "tags": [ "Cognitive Services", "Web", "Azure", "Machine Learning", "Conversation-as-a-Platform (bots)", "More Personal Computing", "Artificial Intelligence" ],
     "type": "TE"
   },
   {
@@ -747,10 +741,10 @@
     "email": "barbara.fusinska@microsoft.com",
     "youtube": "",
     "vimeo": "",
-    "cities": [ "London", "ALL" ],
-    "regions": [ "London", "ALL" ],
+    "cities": [ "London" ],
+    "regions": [ "London" ],
     "country": "UK",
-    "tags": [ "Data Science", "Machine Learning", "Deep Learning", "Artificial Intelligence", "Cognitive Services", "Bots" ],
+    "tags": [ "Data Science", "Machine Learning", "Deep Learning", "Artificial Intelligence", "Cognitive Services", "Conversation-as-a-Platform (bots)" ],
     "type": "TE"
   },
   {
@@ -770,11 +764,32 @@
     "youtube": "",
     "vimeo": "",
     "cities": [ "Liverpool", "Manchester", "“London”" ],
-    "regions": [ "North West", "ALL" ],
+    "regions": [ "North West" ],
     "country": "UK",
-    "tags": [ "Bot Framework", "Cognitive Services", "Conversation-as-a-Platform" ],
+    "tags": [ "Conversation-as-a-Platform (bots)", "Cognitive Services" ],
+    "type": "MVP"
+  },
+  {
+    "id": "C1EB3EF4-D81B-4CC4-9570-4BB97C5854F4",
+    "name": "Robin Osborne",
+    "slogan": "Azure, Bots, Web Dev, & Web Perf Optimization",
+    "bio": "Robin is an experienced VP engineering, Head of Development, Software Development Manager, Team Leader, Architect, Analyst, and Developer who has implemented, designed, supported, and defined development strategies for high availability, highly transactional systems within strict time-scales and expanding scope. He’s a Microsoft MVP, specialising in the design and development of Chatbots, the use of Azure, and also in Web Performance Optimisation. Robin also creates and delivers training courses, and speaks at meetups and conferences on subjects ranging from being a professional developer or technical manager, Web development and performance optimisation, through to Azure development best practices and Chatbot design and development.",
+    "picture": "/images/RobinOsborne.jpg",
+    "website": "https://robinosborne.co.uk",
+    "blog": "https://robinosborne.co.uk",
+    "twitter": "http://twitter.com/rposbo",
+    "linkedin": "https://linkedin.com/in/robinosborne",
+    "github": "https://github.com/rposbo",
+    "stackoverflow": "http://stackoverflow.com/users/377874/rposbo",
+    "email": "robin.osborne@gmail.com",
+    "skype": "",
+    "youtube": "",
+    "vimeo": "",
+    "cities": [ "London" ],
+    "regions": [ "London" ],
+    "country": "UK",
+    "tags": [ "Cognitive Services", "Web", "Azure", "Conversation-as-a-Platform (bots)" ],
     "type": "MVP"
   }
-
 ]
 
