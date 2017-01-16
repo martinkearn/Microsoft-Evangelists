@@ -656,7 +656,7 @@
     "cities": [ "Reading", "Oxford", "London" ],
     "regions": [ "South East" ],
     "country": "UK",
-    "tags": ["Web","Azure",".NET Core","Containers","PowerShell"],
+    "tags": [ "Web", "Azure", ".NET Core", "Containers", "PowerShell" ],
     "type": "TE"
   },
   {
@@ -790,6 +790,30 @@
     "country": "UK",
     "tags": [ "Cognitive Services", "Web", "Azure", "Conversation-as-a-Platform (bots)" ],
     "type": "MVP"
+  },
+  {
+    "id": "E8715561-101F-4C27-A6B0-3947DBF8667E",
+    "name": "Christos Matskas",
+    "slogan": "All about .NET, Azure and Open Source",
+    "bio": "Christos Matskas is a software developer, blogger, speaker and all around geek. He currently works at Microsoft as an Azure Premier Field Engineer. Before joining Microsoft, he was a successful entrepreneur and had the chance to collaborate with companies such as MarkIT, Lockheed Martin and Barclays. He's been building software for over 12 years and he's a passionate Open Source advocate. He contributes regularly to numerous OSS projects and works closely with the community to make the developer space bigger and better.",
+    "picture": "/images/ChristosMatskas.jpg",
+    "website": "https://cmatskas.com",
+    "blog": "https://cmatskas.com",
+    "twitter": "http://twitter.com/christosmatasks",
+    "linkedin": "https://uk.linkedin.com/in/christosmatskas",
+    "skype": "skype:Christos.matskas",
+    "github": "https://github.com/cmatskas",
+    "stackoverflow": "http://stackoverflow.com/users/374075/chris",
+    "email": "christos.matskas@microsoft.com",
+    "youtube": "https://www.youtube.com/user/MrGreekWolf",
+    "vimeo": "",
+    "cities": [ "Glasgow", "Edinburgh", "All" ],
+    "regions": [ "Scotland", "ALL" ],
+    "country": "UK",
+    "tags": [ "Web", "Azure", ".NET", "FullStack", "Security", "DevOps", "Open Source" ],
+    "type": "TE"
   }
+
+
 ]
 
