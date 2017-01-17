@@ -812,8 +812,26 @@
     "country": "UK",
     "tags": [ "Web", "Azure", ".NET", "FullStack", "Security", "DevOps", "Open Source" ],
     "type": "TE"
+  },
+  {
+    "id": "9D790220-2AC8-45FE-AB29-9D846DCF3C4E",
+    "name": "Gary Short",
+    "slogan": "Data scientist, machine learning and predictive analytics specialist",
+    "bio": "Gary Short is a Data Solution Architect for Microsoft. He specialises in machine learning and “big data” on the Azure Platform, but has an interest in data science, in all forms, especially computational linguistics and social network analysis.",
+    "picture": "/images/GaryShort.jpg",
+    "website": "http://www.duncodin.it",
+    "blog": "http://www.duncodin.it",
+    "twitter": "http://twitter.com/garyshort",
+    "linkedin": "https://www.linkedin.com/in/garyshort/",
+    "github": "https://github.com/garyshort",
+    "email": "gary.short@microsoft.com",
+    "youtube": "",
+    "vimeo": "https://vimeo.com/search?q=garyshort",
+    "cities": [ "Dundee", "ALL" ],
+    "regions": [ "Scotland", "ALL" ],
+    "country": "UK",
+    "tags": [ "Cognitive Services", "Data Science", "Machine Learning", "Bot Framework", "Predictive Analytics", "Artificial Intelligence" ],
+    "type": "TE"
   }
-
-
 ]
 
