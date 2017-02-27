@@ -832,6 +832,28 @@
     "country": "UK",
     "tags": [ "Cognitive Services", "Data Science", "Machine Learning", "Bot Framework", "Predictive Analytics", "Artificial Intelligence" ],
     "type": "TE"
+  },
+  {
+    "id": "9E9ACC9F-916B-4887-BF48-AEB929797955",
+    "name": "Chris Testa-O'Neill",
+    "slogan": "Bringing clarity about the Cortana Intelligence Suite to the world",
+    "bio": "Chris Testa-O'Neill works in the Analytics and Data Science team at Microsoft based out of the UK, working with the Cortana Intelligence Suite (CIS) and Microsoft R Server. ",
+    "picture": "/images/ChrisTestaONeill.jpg",
+    "website": "http://learnanalytics.microsoft.com/",
+    "blog": "https://ctestaoneill.wordpress.com/",
+    "twitter": "https://twitter.com/ctesta_oneill",
+    "linkedin": "https://www.linkedin.com/in/ctestaoneill/",
+    "skype": "",
+    "github": "https://github.com/ctestaoneillmsft/",
+    "stackoverflow": "",
+    "email": "chris.testaoneill@microsoft.com",
+    "youtube": "",
+    "vimeo": "https://vimeo.com/user58074153",
+    "cities": [ "Manchester", "ALL" ],
+    "regions": [ "Manchester", "ALL" ],
+    "country": "UK",
+    "tags": [ "Cortana Intelligence Suite", "SQL Server" ],
+    "type": "TE"
   }
 ]
 
