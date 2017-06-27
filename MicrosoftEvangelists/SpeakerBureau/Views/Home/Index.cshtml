@@ -1,0 +1,85 @@
+﻿@model SpeakerBureau.ViewModels.HomeIndexViewModel
+
+@{
+    ViewData["Title"] = "Find a Microsoft speaker near you";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>@ViewData["Title"]</h3>
+            <p>Here you can find some of the UK-based technical speakers and leading experts on emerging technologies and trends from Microsoft and our MVP community. We offer expert presentations on a wide range of topics and speak at meetups, conferences and community events.</p>
+            <p>We try and make ourselves available where possible but sometimes geography, logistics and diaries work against us so it is best if you contact speakers who are geographically near to you initially.</p>
+        </div>
+        <div class="col-md-12">
+            <hr />
+        </div>
+        <form asp-controller="home" asp-action="Index" method="post">
+            <div class="col-md-3">
+                <label>Country</label>
+                <select asp-items="@Model.AvaliableCountries" asp-for="SelectedCountry" class="form-control" onchange="this.form.submit()">
+                    <option>ALL</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label>Region</label>
+                <select asp-items="@Model.AvaliableRegions" asp-for="SelectedRegion" class="form-control" onchange="this.form.submit()">
+                    <option>ALL</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label>City</label>
+                <select asp-items="@Model.AvaliableCities" asp-for="SelectedCity" class="form-control" onchange="this.form.submit()">
+                    <option>ALL</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label>Expertise</label>
+                <select asp-items="@Model.AvaliableTags" asp-for="SelectedTag" class="form-control" onchange="this.form.submit()">
+                    <option>ALL</option>
+                </select>
+            </div>
+        </form>
+        <div class="col-md-12">
+            <hr />
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <h2 class="lightpurple">Microsoft Technical Evangelist</h2>
+    <p>Microsoft Evangelists are people who work directly for Microsoft and have a carry a responsibility around developer and IT Pro outreach across a broad set of technologies. All our evangelists are expert technologists and seasoned speakers.</p>
+    @if (Model.Profiles.Where(p => p.type == "TE").Count() > 0)
+    {
+        <div class="row">
+            @foreach (var profile in Model.Profiles.Where(p => p.type == "TE"))
+            {
+                @Html.Partial("_ProfileBoxPartial", profile)
+            }
+        </div>
+    }
+    else
+    {
+        <p>We don't seem to have anyone that can cover that. Please try a less restrictive search or <a href="mailto:ukdxteevang@microsoft.com?Subject=I%20want%20to%20be%20on%20the%20Microsoft%20Evangelists%20site">email us</a></p>
+    }
+</div>
+
+
+
+@if (Model.Profiles.Where(p => p.type == "MVP").Count() > 0)
+{
+    <div class="container">
+        <h2 class="magenta">Most Valuable Professional (MVP)</h2>
+        <p>Most Valuable Professionals (MVP) are an elite set of technical specialists across a broad range of technologies who have been awarded MVP status by Microsoft for their work in the community. MVPs are not employed or paid by Microsoft.</p>
+        <div class="row">
+            @foreach (var profile in Model.Profiles.Where(p => p.type == "MVP"))
+            {
+                @Html.Partial("_ProfileBoxPartial", profile)
+            }
+        </div>
+    </div>
+}
+
+@section scripts{
+}
