@@ -810,6 +810,29 @@
     "country": "UK",
     "tags": [ "Cortana Intelligence Suite", "SQL Server" ],
     "type": "TE"
+  },
+  {
+    "id": "5A5E1692-4B1D-4D53-83DC-5B68D53A283B",
+    "name": "Tom Morgan",
+    "slogan": "Skype for Business, Bot Framework and Office 365 development",
+    "bio": "Tom is a Microsoft Skype for Business developer and Microsoft MVP for Skype for Business with more than 10 years experience in the software development industry. He is passionate about creating great software that people will find useful. He enjoys blogging and speaking about Skype for Business, Office 365 development, Bot Framework and AI, and the future of the communications industry.",
+    "picture": "/images/TomMorgan.jpg",
+    "website": "http://thoughtstuff.co.uk",
+    "blog": "http://blogs.thoughtstuff.co.uk/",
+    "twitter": "http://twitter.com/tomorgan",
+    "linkedin": "https://www.linkedin.com/in/tmorganuk",
+    "skype": "skype:tom.morgan82",
+    "github": "https://github.com/tomorgan",
+    "stackoverflow": "http://stackoverflow.com/users/301552/tom-morgan",
+    "email": "tom@thoughtstuff.co.uk",
+    "youtube": "https://www.youtube.com/channel/UCTIcsomi9PSINLzBYDvT-7w",
+    "vimeo": "",
+    "cities": [ "Norwich", "Cambridge", "Ipswich", "London", "Birmingham", "Ely" ],
+    "regions": [ "East Anglia" ],
+    "country": "UK",
+    "tags": [ "Skype for Business", "Web", "Azure", "Office 365", "Development", "Conversation-as-a-Platform (bots)", "Artificial Intelligence" ],
+    "type": "MVP"
+
   }
 ]
 
