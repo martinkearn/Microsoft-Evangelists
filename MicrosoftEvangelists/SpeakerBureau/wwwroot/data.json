@@ -176,28 +176,6 @@
     "type": "TE"
   },
   {
-    "id": "4ad3989c-572f-4f92-b18b-cec9fff4a760",
-    "name": "Martin Beeby",
-    "slogan": "A Developer Working at Microsoft as a Technical Evangelist",
-    "bio": "Martin Beeby works for Microsoft where he talks to developers about HTML5, Windows 10 and the web. Martin has been developing since he was 16 and over the past 17 years has worked on projects with many Major brands. Martin has written articles for, and been featured in, NET Magazine, Creative Bloq, SitePoint,  ZDNet, the Microsoft Developer Network, and many more.",
-    "picture": "/images/MartinBeeby.jpg",
-    "website": "http://thebeebs.co.uk",
-    "blog": "https://blogs.msdn.microsoft.com/thebeebs/",
-    "twitter": "http://twitter.com/thebeebs",
-    "linkedin": "https://www.linkedin.com/in/thebeebs",
-    "skype": "",
-    "github": "https://github.com/thebeebs",
-    "stackoverflow": "http://stackoverflow.com/users/225749/martin-beeby",
-    "email": "smich@microsoft.com",
-    "youtube": "https://www.youtube.com/user/martinbeeby",
-    "vimeo": "",
-    "cities": [ "Northampton", "Birmingham", "London" ],
-    "regions": [ "East Midlands", "West Midlands", "South East" ],
-    "country": "UK",
-    "tags": [ "Web", "JavaScript", "Universal Windows Platform", "TypeScript", "Microsoft Edge" ],
-    "type": "TE"
-  },
-  {
     "id": "90a8c222-9df4-4627-ae20-1a66bf1edc01",
     "name": "Andrew Spooner",
     "slogan": "Technical Evangelism Lead at Microsoft UK",
