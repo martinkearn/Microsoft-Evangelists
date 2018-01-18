@@ -898,6 +898,28 @@
     "country": "UK",
     "tags": [ "Web", "Azure", ".NET Core", "Containers", "PowerShell", "General geekery" ],
     "type": "TE"
+  },
+  {
+    "id": "B5C42DF4-EF1C-4688-A3C0-42EA9A5630C3",
+    "name": "Frances Tibble",
+    "slogan": "Tech for good",
+    "bio": "Frances caught the Microsoft bug at university whilst completing her final year computing project with Microsoft Research. Now working as a software engineer full-time, she enjoys coding with customers on projects relating to AI and machine learning. She also likes speaking about the things she's learned along the way.",
+    "picture": "/images/FrancesTibble.jpg",
+    "website": "",
+    "blog": "",
+    "twitter": "https://twitter.com/frances_tibble",
+    "linkedin": "https://www.linkedin.com/in/francestibble/",
+    "skype": "skype:frtibble",
+    "github": "https://github.com/frtibble",
+    "stackoverflow": "",
+    "email": "frtibble@microsoft.com",
+    "youtube": "",
+    "vimeo": "",
+    "cities": [ "Reading", "Oxford", "Bristol", "Birmingham", "London" ],
+    "regions": [ "South West", "South East", "ALL" ],
+    "country": "UK",
+    "tags": [ "Cognitive Services", "Machine Learning", "Conversation-as-a-Platform", "Artificial Intelligence", "Quantum Computing" ],
+    "type": "TE"
   }
 
 
