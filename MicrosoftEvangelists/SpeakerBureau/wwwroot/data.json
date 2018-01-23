@@ -920,7 +920,30 @@
     "country": "UK",
     "tags": [ "Cognitive Services", "Machine Learning", "Conversation-as-a-Platform", "Artificial Intelligence", "Quantum Computing" ],
     "type": "TE"
+  },
+  {
+    "id": "29127055-F43C-4E43-87F3-7007895C32A9",
+    "name": "Mason Cusack",
+    "slogan": "Machine learning and the maker movement",
+    "bio": "Before joining Microsoft, Mason held a similar role in the Huaqiangbei electronics district of Shenzhen, China, where he helped a local start-up develop robotic tutors for young children. It was here he developed an understanding of the varied applications of artificial intelligence, and a passion for digital fabrication, the worldwide maker movement, and a culture of innovation for collective good. These lessons are brought to bear in each of his technical projects. Today, that means serving some of Microsoft's most valued customers as a mercenary Software Engineer in “applied AI”, with projects spanning from the use of cognitive services, to custom machine learning systems. Mason is also an active proponent of STEM careers and computer science education among young people, regularly visiting schools to evangelise these topics in person, or curating content to help others do so.",
+    "picture": "/images/MasonCusack.jpg",
+    "website": "https://masoncusack.github.io/",
+    "blog": "https://masoncusack.github.io/blog",
+    "twitter": "http://twitter.com/masoncusack",
+    "linkedin": "https://www.linkedin.com/in/masoncusack",
+    "skype": "",
+    "github": "https://github.com/masoncusack",
+    "stackoverflow": "https://stackoverflow.com/users/9033794/mason-cusack",
+    "email": "t-macusa@microsoft.com",
+    "youtube": "",
+    "vimeo": "",
+    "cities": [ "London", "Reading", "Birmingham", "Oxford", "Bristol", "Cambridge", "Cardiff", "Manchester" ],
+    "regions": [ "South East", "West Midlands", "ALL" ],
+    "country": "UK",
+    "tags": [ "Azure", "Cognitive Services", "Machine Learning", "Artificial Intelligence", "IoT", "Research", "Innovation", "Edtech", "STEM", "STEAM" ],
+    "type": "TE"
   }
+
 
 
 ]
